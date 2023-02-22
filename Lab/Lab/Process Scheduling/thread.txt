@@ -1,0 +1,31 @@
+package queue;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class Mythread extends Thread {
+    
+    public String name="";
+    public int burst=0;
+    
+    Mythread(String s,int i){
+        this.name=s;
+        this.burst=i;
+    }
+
+    
+    @Override
+    synchronized public void run(){
+        System.out.println("thread running "+this.name);
+        try {
+            this.sleep(1000*burst);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Mythread.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        System.out.println("thread stopped running "+this.name+" total time "+this.burst);
+        
+    }
+
+
+    
+}

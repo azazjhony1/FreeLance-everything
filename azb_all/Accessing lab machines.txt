@@ -1,0 +1,8 @@
+username: azb281@psu.edu
+password: gafhip-canwuq-5rUzce
+
+2 Factor Authentication click (Duo Push) a message will come to to approve access (message me if not approved)
+
+global potect vpn portal address: secure-connect.psu.edu
+
+getting into machine through mobaXterm: ssh azb281@e5-cse-135-13.cse.psu.edu

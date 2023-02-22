@@ -1,0 +1,57 @@
+def main():
+
+ value = hex_to_binary('73')
+
+ row, col = get_sbox_indexes(value)
+
+
+  
+ print(get_sbox_entry(row, col))
+
+# #  test the byte substitution function 
+# 
+ word_from_key = ['01100011', '01111100','01110111', '01111011'] # in binary is 01100011 01111100 01110111 01111011
+ print(byte_left_shift(word_from_key)) 
+
+# test g_function function
+
+ print(g_Function(word_from_key, 1))
+
+
+ secret_key = "01010100011010000110000101110100011100110010000001101101011110010010000001001011011101010110111001100111001000000100011001110101"
+
+ print(f"Secret key: {secret_key}")
+ round_keys = generate_round_keys(secret_key)
+ print(f"Round keys: {round_keys}")
+
+ fbf_matrix = [[0x63, 0x7C, 0x77, 0x7B], [0xF2, 0x6B, 0x6F, 0xC5], [0x30, 0x01, 0x67, 0x2B], [0xFE, 0xD7, 0xAB, 0x76]]
+ print(shift_rows(fbf_matrix))
+
+ print(mix_columns(mix_column_matrix, fbf_matrix))
+
+ key = "01010100011010000110000101110100011100110010000001101101011110010010000001001011011101010110111001100111001000000100011001110101"
+ matrix = bin_key_to_matrix(key)
+ print('the matrix is: ',matrix)
+
+
+
+ print('The round key of add_round_key: ', add_round_key(fbf_matrix, mix_column_matrix))
+
+
+
+ state_matrix = [['0001', '0010', '0011', '0100'],
+                ['0101', '0110', '0111', '1000'],
+                ['1001', '1010', '1011', '1100'],
+                ['1101', '1110', '1111', '0000']]
+ round_key = [['0000', '1111', '0000', '1111'],
+             ['1111', '0000', '1111', '0000'],
+             ['0000', '1111', '0000', '1111'],
+             ['1111', '0000', '1111', '0000']]
+ print(add_round_key_binary(state_matrix, round_key))
+
+
+
+
+
+# #Call the main function
+main()

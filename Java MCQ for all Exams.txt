@@ -1,0 +1,4262 @@
+1. Number of primitive data types in Java are? 
+a) 6	
+b) 7	
+c) 8	
+d) 9
+Ans. c
+2. What is the size of float and double in Java?
+a) 32 and 64
+b) 32 and 32
+c) 64 and 64
+d) 64 and 32 Ans. a
+3. Automatic type conversion is possible in which of the possible cases?
+a) Byte to int
+b) Int to long
+c) Long to int
+d) Short to int Ans. b
+
+4. Find the output of the following code. int Integer = 24;
+char String = ‘I’; System.out.print(Integer); System.out.print(String);
+a) Compile error
+b) Throws exception
+c) I
+d) 24 I 
+Ans. d
+
+5. Select the valid statement.
+a) char[] ch = new char(5)
+b) char[] ch = new char[5]
+c) char[] ch = new char()
+d) char[] ch = new char[] 
+Ans. b
+
+6. When an array is passed to a method, what does the method receive?
+a) The reference of the array	
+b) A copy of the array
+c) Length of the array	
+d) Copy of the first element 
+Ans. a
+
+7. Select the valid statement to declare and initialize an array.
+a) int[] A = {}
+b) int[] A = {1, 2, 3}
+c) int[] A = (1, 2, 3)
+d) int[][] A = {1, 2, 3}
+Ans. b
+
+8. Arrays in java are-
+a) Object references
+b) objects
+c) Primitive data type
+d) None 
+Ans. b
+
+9. When is the object created with new keyword?
+a) At run time
+b) At compile time
+c) Depends on the code
+d) None 
+Ans. a
+
+10. Identify the correct definition of a package.
+a) A package is a collection of editing tools
+b) A package is a collection of classes
+c) A package is a collection of classes and interfaces
+d) A package is a collection of interfaces 
+Ans. c
+
+11. Identify the correct restriction on static methods.
+i They must access only static data
+ii They can only call other static methods
+iii They cannot refer to this or super
+a) I and ii
+b) iiand iii
+c) Only iii
+d) I, ii and iii 
+Ans. d
+
+12. Identify the keyword among the following that makes a variable belong to a class, rather than being defined for each instance of the class.
+a) final	
+b) static
+c) volatile	
+d) abstract 
+Ans. b
+
+13. In which of the following is toString() method defined?
+a) java.lang.Object
+b) java.lang.String
+c) java.lang.util
+d) None 
+Ans. a
+
+14. CompareTo() returns
+a) True
+b) False
+c) An int value
+d) None 
+Ans. c
+
+15. Identify the output of the following program. String str = “Hellow”;
+System.out.println(str.indexOf(‘t));
+a) 0
+b) 1
+c) True
+d) -1
+Ans. d
+
+16. To which of the following does the class string belong to.
+a) java.lang
+b) java.awt
+c) java.applet
+d) java.string 
+Ans. a
+
+17. How many objects will be created in the following? String a = new String(“heetson”);
+String b = new String(“heetson”); Strinc c = “heetson”;
+String d = “heetson”;
+a) 2
+b) 3
+c) 4
+d) None 
+Ans. b
+
+18. Total constructor string class have?
+a) 3
+b) 7
+c) 13
+d) 20 
+Ans. c
+
+19. Find the output of the following code. int ++a = 100;
+System.out.println(++a); 
+a) 101
+b) Compile error as ++a is not valid identifier
+c) 100
+d) None 
+Ans. b
+
+20. Identify the return type of a method that does not return any value.
+a) int
+b) void
+c) double
+d) None 
+Ans. b
+
+21. Output of Math.floor(3.6) is
+a) 3
+b) 3.0
+c) 4
+d) 4.0
+Ans. b
+
+22. Where does the system stores parameters and local variables whenever a method is invoked?
+a) Heap
+b) Stack
+c) Array
+d) Tree 
+Ans. b
+
+23. Identify the modifier which cannot be used for constructor.
+a) public
+b) protected
+c) private
+d) static
+Ans. d
+24. What is the variable declared in a class for the use of all methods of the class called?
+a) Object
+b) Instance variables
+c) Reference variable
+d) None 
+Ans. b
+
+25. What is the implicit return type of constructor?
+a) No return type
+b) A class object in which it is defined
+c) void
+d) None 
+Ans. b
+
+26. When is the finalize() method called?
+a) Before garbage collection
+b) Before an object goes out of scope
+c) Before a variable goes out of scope
+d) None 
+Ans. a
+
+27. Identify the prototype of the default constructor. Public class Solution {}
+a) Solution(void)
+b) Solution()
+c) public Solution(void)
+d) public Solution() 
+Ans. d
+
+28. Identify the correct way of declaring constructor. Public class Solution {}
+a) Solution(){}
+b) public Solution(){}
+c) Solution(void){}
+d) Both A and B 
+Ans. d
+
+29. Identify the infinite loop.
+a) for(; ;)
+b) for(int i=0; i<1; i--)
+c) for(int i=0; ;i++)
+d) All of the above
+Ans. d
+30. What is Runnable?
+a) Abstract class	
+b) Interface	
+c) Class	
+d) Method 
+Ans. b
+
+31. Exception created by try block is caught in which block
+a) catch
+b) throw
+c) final
+d) none 
+Ans. a
+
+32. Which of the following exception is thrown when divided by zero statement is executed?
+a) NullPointerException
+b) NumberFormatException
+c) ArithmeticException
+d) None 
+Ans. c
+
+33. Where is System class defined?
+a) java.lang.package
+b) java.util.package
+c) java.io.package
+d) None 
+Ans. a
+
+34. Identify the interface which is used to declare core methods in java?
+a) Comparator
+b) EventListener
+c) Set
+d) Collection 
+Ans. d
+
+35. Which of the following statement are true about finalize() method?
+a) It can be called Zero or one times
+b) It can be called Zero or more times
+c) It can be called Exactly once
+d) It can be called one or more times 
+Ans. a
+
+36. What does the operator >>>> do?
+a) Right shift operator	
+b) Left shift operator
+c) Zero fill left shift	
+d) Zero fill right sift
+Ans. d
+37. Identify the incorrect java feature.
+a) Object oriented	
+b) Use of pointers
+c) Dynamic	
+d) Architectural neural 
+Ans. b
+
+38. Which environment variable is used to set the java path?
+a) MAVEN_Path
+b) JavaPATH
+c) JAVA
+d) JAVA_HOME 
+Ans. d
+
+39. Which of the following is not an OOPS concept in Java?
+a) Polymorphism
+b) Inheritance
+c) Compilation
+d) Encapsulation 
+Ans. c
+
+40. What is not the use of “this” keyword in Java?
+a) Referring to the instance variable when a local variable has the same name
+b) Passing itself to the method of the same class
+c) Passing itself to another method
+d) Calling another constructor in constructor chaining 
+Ans. b
+
+41. Which of the following is a type of polymorphism in Java Programming?
+a) Multiple polymorphism
+b) Compile time polymorphism
+c) Multilevel polymorphism
+d) Execution time polymorphism 
+Ans. b
+
+42. What is Truncation in Java?
+a) Floating-point value assigned to a Floating type
+b) Floating-point value assigned to an integer type
+c) Integer value assigned to floating type
+d) Integer value assigned to floating type 
+Ans. b
+
+43. What is the extension of compiled java classes?
+a) .txt	
+b) .js
+c) .class	
+d) .java 
+Ans. c
+
+44. Which exception is thrown when java is out of memory?
+a) MemoryError
+b) OutOfMemoryError
+c) MemoryOutOfBoundsException
+d) MemoryFullException 
+Ans. b
+
+46. Which of these keywords is used to define interfaces in Java?
+a) intf
+b) Intf
+c) interface
+d) Interface 
+Ans. c
+
+47. Which of the following is a superclass of every class in Java?
+a) ArrayList
+b) Abstract class
+c) Object class
+d) String 
+Ans. c
+
+48. Which of the below is not a Java Profiler?
+a) JProfiler
+b) Eclipse Profiler
+c) JVM
+d) JConsole 
+Ans. c
+
+49. Which of these packages contains the exception Stack Overflow in Java?
+a) java.io	
+b) java.system	
+c) java.lang	
+d) java.util 
+Ans. c
+
+50. Which of these statements is incorrect about Thread?
+a) start() method is used to begin execution of the thread
+b) run() method is used to begin execution of a thread before start() method in special cases
+c) A thread can be formed by implementing Runnable interface only
+d) A thread can be formed by a class that extends Thread class 
+Ans. b
+
+51. Which of these keywords are used for the block to be examined for exceptions?
+a) check	
+b) throw
+c) catch	
+d) try 
+Ans. d
+
+52. What is the numerical range of a char data type in Java?
+a) 0 to 256
+b) -128 to 127
+c) 0 to 65535
+d) 0 to 32767 
+Ans. c
+
+53. Which class provides system independent server side implementation?
+a) Server
+b) ServerReader
+c) Socket
+d) ServerSocket 
+Ans. d
+
+54. Which of the following is true about servlets?
+a) Servlets can use the full functionality of the Java class libraries
+b) Servlets execute within the address space of web server, platform independent and uses the functionality of java class libraries
+c) Servlets execute within the address space of web server
+d) Servlets are platform-independent because they are written in java 
+Ans. b
+
+55. What is the range of short data type in Java? 
+a) -128 to 127
+b) -32768 to 32767
+c) -2147483648 to 2147483647
+d) None of the mentioned 
+Ans. b
+
+56. What is the range of byte data type in Java? 
+a) -128 to 127
+b) -32768 to 32767
+c) -2147483648 to 2147483647
+d) None of the mentioned 
+Ans. a
+
+57. An expression involving byte, int, and literal numbers is promoted to which of these?
+a) int	
+b) long	
+c) byte	
+d) float 
+Ans. a
+
+58. Which of these literals can be contained in float data type variable? 
+a) -1.7e+308
+b) -3.4e+038
+c) +1.7e+308
+d) -3.4e+050
+Ans. b
+
+59. Which data type value is returned by all transcendental math functions?
+a) int
+b) float
+c) double
+d) long 
+Ans. c
+
+60. Which of these coding types is used for data type characters in Java?
+a) ASCII
+b) ISO-LATIN-1
+c) UNICODE
+d) None of the mentioned 
+Ans. c
+
+61. Which of these values can a boolean variable contain?
+a) True & False
+b) 0 & 1
+c) Any integer value
+d) true 
+Ans. a
+
+62. Which of these occupy first 0 to 127 in Unicode character set used for characters in Java?
+a) ASCII	
+b) ISO-LATIN-1
+c) None of the mentioned	
+d) ASCII and ISO-LATIN1 
+Ans. d
+
+63. What is the order of variables in Enum?
+a) Ascending order	
+b) Descending order
+c) Random order	
+d) Depends on the order() method 
+Ans. d
+
+64. If we try to add Enum constants to a TreeSet, what sorting order will it use?
+a) Sorted in the order of declaration of Enums
+b) Sorted in alphabetical order of Enums
+c) Sorted based on order() method
+d) Sorted in descending order of names of Enums 
+Ans. a
+
+65. Which method returns the elements of Enum class?
+a) getEnums()
+b) getEnumConstants()
+c) getEnumList()
+d) getEnum() 
+Ans. b
+
+66. Which class does all the Enums extend?
+a) Object
+b) Enums
+c) Enum
+d) EnumClass 
+Ans. c
+
+67. Which of the following is the advantage of BigDecimal over double?
+a) Syntax
+b) Memory usage
+c) Garbage creation
+d) Precision 
+Ans. d
+
+68. Which of the below data type doesn’t support overloaded methods for +,-,* and /?
+a) int
+b) float
+c) double
+d) BigDecimal 
+Ans. d
+
+69. What is the base of BigDecimal data type?
+a) Base 2	
+b) Base 8
+c) Base 10	
+d) Base e
+Ans. c
+70. What is the limitation of toString() method of BigDecimal?
+a) There is no limitation
+b) toString returns null
+c) toString returns the number in expanded form
+d) toString uses scientific notation 
+Ans. d
+
+71. Which of the following is not provided by BigDecimal?
+a) scale manipulation	
+b) + operator
+c) rounding	
+d) hashing 
+Ans. b
+
+72. BigDecimal is a part of which package?
+a) java.lang	
+b) java.math
+c) java.util	
+d) java.io 
+Ans. b
+
+73. What is BigDecimal.ONE?
+a) wrong statement
+b) custom defined statement
+c) static variable with value 1 on scale 10
+d) static variable with value 1 on scale 0 
+Ans. d
+
+74. Which class is a library of functions to perform arithmetic operations of BigInteger and BigDecimal?
+a) MathContext
+b) MathLib
+c) BigLib
+d) BigContext 
+Ans. a
+
+75. How to format date from one form to another?
+a) SimpleDateFormat
+b) DateFormat
+c) SimpleFormat
+d) DateConverter 
+Ans. a
+
+76. How to identify if a timezone is eligible for DayLight Saving?
+a) useDaylightTime() of Time class
+b) useDaylightTime() of Date class
+c) useDaylightTime() of TimeZone class
+d) useDaylightTime() of DateTime class
+Ans. a
+77. What is the replacement of joda time library in java 8?
+a) java.time (JSR-310)
+b) java.date (JSR-310)
+c) java.joda
+d) java.jodaTime 
+Ans. a
+
+78. How is Date stored in database?
+a) java.sql.Date
+b) java.util.Date
+c) java.sql.DateTime
+d) java.util.DateTime 
+Ans. a
+
+79. What does LocalTime represent?
+a) Date without time
+b) Time without Date
+c) Date and Time
+d) Date and Time with timezone 
+Ans. b
+
+80. How to get difference between two dates?
+a) long diffInMilli = java.time.Duration.between(dateTime1, dateTime2).toMillis();
+b) long diffInMilli = java.time.difference(dateTime1, dateTime2).toMillis();
+c) Date diffInMilli = java.time.Duration.between(dateTime1, dateTime2).toMillis();
+d) Time diffInMilli = java.time.Duration.between(dateTime1, dateTime2).toMillis(); 
+Ans. a
+
+81. How to get UTC time?
+a) Time.getUTC();
+b) Date.getUTC();
+c) Instant.now();
+d) TimeZone.getUTC(); 
+Ans. c
+
+82. Which of these is long data type literal?
+a) 0x99fffL
+b) ABCDEFG
+c) 0x99fffa
+d) 99671246
+Ans. a
+
+83. Which of these can be returned by the operator &?
+a) Integer
+b) Boolean
+c) Character
+d) Integer or Boolean 
+Ans. d
+
+84. Literals in java must be appended by which of these?
+a) L
+b) l
+c) D
+d) L and I 
+Ans. d
+
+85. Literal can be of which of these data types?
+a) integer
+b) float
+c) boolean
+d) all of the mentioned 
+Ans. d
+
+86. Which of these is necessary condition for automatic type conversion in Java?
+a) The destination type is smaller than source type
+b) The destination type is larger than source type
+c) The destination type can be larger or smaller than source type
+d) None of the mentioned 
+Ans. b
+
+87. What is the prototype of the default constructor of this Java class?
+public class prototype { }
+a) prototype{}
+b) prototype{void}
+c) public prototype{void}
+d) public prototype{ }
+Ans. d
+
+88. If an expression contains double, int, float, long, then the whole expression will be promoted into which of these data types?
+a) long
+b) int
+c) double
+d) float Ans. c
+
+89. Which of these operators is used to allocate memory to array variable in Java?
+a) malloc
+b) alloc
+c) new
+d) new malloc 
+Ans. c
+
+90. Which of these is an incorrect array declaration?
+a) int arr[] = new int[5]
+b) int [] arr = new int[5]
+c) int arr[] = new int[5]
+d) int arr[] = int [5] new 
+Ans. d
+
+91. Which of these is an incorrect Statement?
+a) It is necessary to use new operator to initialize an array
+b) Array can be initialized using comma separated expressions surrounded by curly braces
+c) Array can be initialized when they are declared
+d) None of the mentioned 
+Ans. a
+
+92. Which of these is necessary to specify at time of array initialization?
+a) Row
+b) Column
+c) Both Row and Column
+d) None of the mentioned 
+Ans. a
+
+93. What is the type of variable ‘b’ and ‘d’ in the following Java snippet? int a[], b;
+int []c, d;
+a) ‘b’ and ‘d’ are int
+b) ‘b’ and ‘d’ are arrays of type int
+c) ‘b’ is int variable; ‘d’ is int array
+d) ‘d’ is int variable; ‘b’ is int array 
+Ans. c
+
+94. Generics does not work with?
+a) Set
+b) List
+c) Tree
+d) Array 
+Ans. d
+
+95. How to sort an array?
+a) Array.sort{}	
+b) Arrays.sort{}
+c) Collection.sort{}	
+d) System.sort{}
+Ans. b
+
+96. How to copy contents of array?
+a) System.arrayCopy{}
+b) Array.copy{}
+c) Arrays.copy{}
+d) Collection.copy{} 
+Ans. a
+
+97. Where is an array stored in memory?
+a) heap space
+b) stack space
+c) heap space and stack space
+d) first generation memory 
+Ans. a
+
+98. An array elements are always stored in	memory locations.
+a) Sequential
+b) Random
+c) Sequential and Random
+d) Binary search 
+Ans. a
+
+99. Which of the following can be operands of arithmetic operators?
+a) Numeric
+b) Boolean
+c) Characters
+d) Both Numeric & Characters 
+Ans. d
+
+100. Modulus operator, %, can be applied to which of these?
+a) Integers
+b) Floating – point numbers
+c) Both Integers and floating – point numbers
+d) None of the mentioned 
+Ans. c
+
+101. Decrement operator, ??, decreases the value of variable by what number? a) 1	b) 2	c) 3	d) 4
+Ans. a
+
+102. Which of these statements are incorrect?
+a) Assignment operators are more efficiently implemented by Java run-time system than their equivalent long forms
+b) Assignment operators run faster than their equivalent long forms
+c) Assignment operators can be used only with numeric and character data type
+d) None of the mentioned Ans. d
+
+103. Which of these is not a bitwise operator?
+a) &
+b) &=
+c) |=
+d) <= Ans. d
+
+104. Which operator is used to invert all the digits in a binary representation of a number?
+a) ~
+b) <<<
+c) >>>
+d) ^ Ans. a
+
+105. On applying Left shift operator, <<, on integer bits are lost one they are shifted past which position bit?
+a) 1
+b) 32
+c) 33
+d) 31 Ans. d
+
+106. Which right shift operator preserves the sign of the value?
+a) <<
+b) >>
+c) <<=
+d) >>=
+Ans. b
+
+107. Which of these statements are incorrect?
+a) The left shift operator, <<, shifts all of the bits in a value to the left specified number of times
+b) The right shift operator, >>, shifts all of the bits in a value to the right specified number of times
+c) The left shift operator can be used as an alternative to multiplying by 2
+d) The right shift operator automatically fills the higher order bits with 0 Ans. d
+
+108. What is the output of relational operators?
+a) Integer	b) Boolean	c) Characters	d) Double Ans. b
+
+109. Which of these is returned by “greater than”, “less than” and “equal to” operators?
+a) Integers
+b) Floating – point numbers
+c) Boolean
+d) None of the mentioned Ans. c
+
+110. Which of these operators can skip evaluating right hand operand?
+a) !
+b) |
+c) &
+d) && Ans. d
+
+111. Which of these statements is correct?
+a) true and false are numeric values 1 and 0
+b) true and false are numeric values 0 and 1
+c) true is any non zero value and false is 0
+d) true and false are non numeric values Ans. d
+
+112. Which of these have highest precedence?
+a) ()
+b) ++
+c) *
+d) >> Ans. a
+
+113. What should be expression1 evaluate to in using ternary operator as in this line? expression1 ? expression2 : expression3
+a) Integer
+b) Floating – point numbers
+c) Boolean
+d) None of the mentioned Ans. c
+
+114. Which of these selection statements test only for equality?
+a) if	b) switch
+c) if & switch	d) none of the mentioned Ans. b
+
+115. Which of these are selection statements in Java?
+a) if()
+b) for()
+c) continue
+d) break Ans. a
+
+116. Which of the following loops will execute the body of loop even when condition controlling the loop is initially false?
+a) do-while
+b) while
+c) for
+d) none of the mentioned Ans. a
+
+117. Which of these jump statements can skip processing the remainder of the code in its body for a particular iteration?
+a) break
+b) return
+c) exit
+d) continue Ans. d
+
+118. Which of this statement is incorrect?
+a) switch statement is more efficient than a set of nested ifs
+b) two case constants in the same switch can have identical values
+c) switch statement can only test for equality, whereas if statement can evaluate any type of boolean expression
+d) it is possible to create a nested switch statements Ans. b
+
+119. What is true about a break?
+a) Break stops the execution of entire program
+b) Break halts the execution and forces the control out of the loop
+c) Break forces the control out of the loop and starts the execution of next iteration
+d) Break halts the execution of the loop for certain time frame Ans. b
+
+120. What is true about do statement?
+a) do statement executes the code of a loop at least once
+b) do statement does not get execute if condition is not matched in the first iteration
+c) do statement checks the condition at the beginning of the loop
+d) do statement executes the code more than once always Ans. a
+
+121. Which of the following is used with the switch statement?
+a) Continue	b) Exit	c) break	d) do Ans. c
+
+122. Which of the following is not a decision making statement?
+a) if
+b) if-else
+c) switch
+d) do-while Ans. d
+
+123. Which of the following is not a valid jump statement?
+a) break
+b) goto
+c) continue
+d) return Ans. b
+
+124. From where break statement causes an exit?
+a) Only from innermost loop
+b) Terminates a program
+c) Only from innermost switch
+d) From innermost loops or switches Ans. d
+
+125. Which of the following is not a valid flow control statement?
+a) exit()
+b) break
+c) continue
+d) return Ans. a
+
+126. Which of the following is not OOPS concept in Java?
+a) Inheritance
+b) Encapsulation
+c) Polymorphism
+d) Compilation Ans. d
+
+127. Which of the following is a type of polymorphism in Java?
+a) Compile time polymorphism	b) Execution time polymorphism
+c) Multiple polymorphism	d) Multilevel polymorphism Ans. a
+
+128. When does method overloading is determined?
+a) At run time
+b) At compile time
+c) At coding time
+d) At execution time Ans. b
+
+129. When Overloading does not occur?
+a) More than one method with same name but different method signature and different number or type of parameters
+b) More than one method with same name, same signature but different number of signature
+c) More than one method with same name, same signature, same number of parameters but different type
+d) More than one method with same name, same number of parameters and type but different signature Ans. d
+
+130. Which concept of Java is a way of converting real world objects in terms of class?
+a) Polymorphism
+b) Encapsulation
+c) Abstraction
+d) Inheritance Ans. c
+
+131. Which concept of Java is achieved by combining methods and attribute into a class?
+a) Encapsulation
+b) Inheritance
+c) Polymorphism
+d) Abstraction Ans. a
+
+132. What is it called if an object has its own lifecycle and there is no owner?
+a) Aggregation
+b) Composition
+c) Encapsulation
+d) Association Ans. d
+
+133. What is it called where child object gets killed if parent object is killed?
+a) Aggregation
+b) Composition
+c) Encapsulation
+d) Association Ans. b
+
+134. What is it called where object has its own lifecycle and child object cannot belong to another parent object?
+a) Aggregation	b) Composition	c) Encapsulation	d) Association Ans. a
+
+135. Which component is responsible for converting bytecode into machine specific code?
+a) JVM	b) JDK	c) JIT	d) JRE Ans. a
+
+136. Which component is responsible to run java program?
+a) JVM
+b) JDK
+c) JIT
+d) JRE Ans. d
+
+137. Which of the below is invalid identifier with the main method?
+a) public
+b) static
+c) private
+d) final Ans. c
+
+138. How can we identify whether a compilation unit is class or interface from a .class file?
+a) Java source file header
+b) Extension of compilation unit
+c) We cannot differentiate between class and interface
+d) The class or interface name should be postfixed with unit type Ans. a
+
+139. What is use of interpreter?
+a) They convert bytecode to machine language code
+b) They read high level code and execute them
+c) They are intermediated between JIT and JVM
+d) It is a synonym for JIT Ans. b
+
+140. What is the stored in the object obj in following lines of Java code? box obj;
+a) Memory address of allocated memory of object
+b) NULL
+c) Any arbitrary pointer
+d) Garbage Ans. b
+
+141. Which of these keywords is used to make a class?
+a) class	b) struct	c) int	d) none of the mentioned Ans. a
+
+142. Which of the following is a valid declaration of an object of class Box?
+a) Box obj = new Box();
+b) Box obj = new Box;
+c) obj = new Box();
+d) new Box obj; Ans. a
+
+143. Which of these statement is incorrect?
+a) Every class must contain a main() method
+b) Applets do not require a main() method at all
+c) There can be only one main() method in a program
+d) main() method must be made public Ans. a
+
+144. Which of the following statements is correct?
+a) Public method is accessible to all other classes in the hierarchy
+b) Public method is accessible only to subclasses of its parent class
+c) Public method can only be called by object of its class
+d) Public method can be accessed by calling object of the public class Ans. a
+
+145. What is the process of defining more than one method in a class differentiated by method signature?
+a) Function overriding
+b) Function overloading
+c) Function doubling
+d) None of the mentioned Ans. b
+
+146. Which of the following is a method having same name as that of it’s class?
+a) finalize
+b) delete
+c) class
+d) constructor Ans. d
+
+147. Which method can be defined only once in a program?
+a) main method	b) finalize method
+c) static method	d) private method Ans. a
+
+148. Which of this statement is incorrect?
+a) All object of a class are allotted memory for the all the variables defined in the class
+b) If a function is defined public it can be accessed by object of other class by inheritation
+c) main() method must be made public
+d) All object of a class are allotted memory for the methods defined in the class Ans. d
+
+149. What is the return type of Constructors?
+a) int	b) float	c) void	d) none of the mentioned Ans. d
+
+150. Which keyword is used by the method to refer to the object that invoked it?
+a) import	b) catch
+c) abstract	d) this Ans. d
+
+151. Which of the following is a method having same name as that of its class?
+a) finalize
+b) delete
+c) class
+d) constructor Ans. d
+
+152. Which operator is used by Java run time implementations to free the memory of an object when it is no longer needed?
+a) delete
+b) free
+c) new
+d) none of the mentioned Ans. d
+
+153. Which function is used to perform some action when the object is to be destroyed?
+a) finalize()
+b) delete()
+c) main()
+d) none of the mentioned Ans. a
+
+154. Which of the following statements are incorrect?
+a) default constructor is called at the time of object declaration
+b) constructor can be parameterized
+c) finalize() method is called when a object goes out of scope and is no longer needed
+d) finalize() method must be declared protected
+
+155. What is true about private constructor?
+a) Private constructor ensures only one instance of a class exist at any point of time
+b) Private constructor ensures multiple instances of a class exist at any point of time
+c) Private constructor eases the instantiation of a class
+d) Private constructor allows creating objects in other classes Ans. a
+
+156. What would be the behaviour if this() and super() used in a method?
+a) Runtime error	b) Throws exception
+c) compile time error	d) Runs successfully Ans. c
+
+157. What is false about constructor?
+a) Constructors cannot be synchronized in Java
+b) Java does not provide default copy constructor
+c) Constructor can have a return type
+d) “this” and “super” can be used in a constructor Ans. c
+
+158. What is true about Class.getInstance()?
+a) Class.getInstance calls the constructor
+b) Class.getInstance is same as new operator
+c) Class.getInstance needs to have matching constructor
+d) Class.getInstance creates object if class does not have any constructor Ans. d
+
+159. What is true about constructor?
+a) It can contain return type	b) It can take any number of parameters
+c) It can have any non access modifiers	d) Constructor cannot throw an exception Ans. b
+
+160. What is true about protected constructor?
+a) Protected constructor can be called directly
+b) Protected constructor can only be called using super()
+c) Protected constructor can be used outside package
+d) protected constructor can be instantiated even if child is in a different package Ans. b
+
+161. What is not the use of “this” keyword in Java?
+a) Passing itself to another method
+b) Calling another constructor in constructor chaining
+c) Referring to the instance variable when local variable has the same name
+d) Passing itself to method of the same class
+
+162. What would be the behaviour if one parameterized constructor is explicitly defined?
+a) Compilation error
+b) Compilation succeeds
+c) Runtime error
+d) Compilation succeeds but at the time of creating object using default constructor, it throws compilation error
+Ans. d
+
+163. What would be behaviour if the constructor has a return type?
+a) Compilation error
+b) Runtime error
+c) Compilation and runs successfully
+d) Only String return type is allowed Ans. a
+
+164. Which of the following has the highest memory requirement?
+a) Heap	b) Stack	c) JVM	d) Class Ans. c
+
+165. Where is a new object allocated memory?
+a) Young space
+b) Old space
+c) Young or Old space depending on space availability
+d) JVM Ans. a
+
+166. Which of the following is a garbage collection technique?
+a) Cleanup model
+b) Mark and sweep model
+c) Space management model
+d) Sweep model Ans. b
+
+167. What is -Xms and -Xmx while starting jvm?
+a) Initial; Maximum memory
+b) Maximum; Initial memory
+c) Maximum memory
+d) Initial memory Ans. a
+
+168. Which exception is thrown when java is out of memory?
+a) MemoryFullException	b) MemoryOutOfBoundsException
+c) OutOfMemoryError	d) MemoryError
+
+169. How to get prints of shared object memory maps or heap memory maps for a given process?
+a) jmap	b) memorymap	c) memorypath	d) jvmmap Ans. a
+
+170. What happens to the thread when garbage collection kicks off?
+a) The thread continues its operation
+b) Garbage collection cannot happen until the thread is running
+c) The thread is paused while garbage collection runs
+d) The thread and garbage collection do not interfere with each other Ans. c
+
+171. Which of the below is not a Java Profiler?
+a) JVM	b) JConsole	c) JProfiler	d) Eclipse Profiler Ans. a
+
+172. Which of the below is not a memory leak solution?
+a) Code changes	b) JVM parameter tuning
+c) Process restart	d) GC parameter tuning Ans. c
+
+173. What is the process of defining two or more methods within same class that have same name but different parameters declaration?
+a) method overloading
+b) method overriding
+c) method hiding
+d) none of the mentioned Ans. a
+
+174. Which of these can be overloaded?
+a) Methods
+b) Constructors
+c) All of the mentioned
+d) None of the mentioned Ans. c
+
+175. Which of these is correct about passing an argument by call-by-value process?
+a) Copy of argument is made into the formal parameter of the subroutine
+b) Reference to original argument is passed to formal parameter of the subroutine
+c) Copy of argument is made into the formal parameter of the subroutine and changes made on parameters of subroutine have effect on original argument
+d) Reference to original argument is passed to formal parameter of the subroutine and changes made on parameters of subroutine have effect on original argument
+Ans. a
+
+176. What is the process of defining a method in terms of itself, that is a method that calls itself?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Recursion Ans. d
+
+177. Which of these access specifiers must be used for main() method?
+a) private
+b) public
+c) protected
+d) none of the mentioned Ans. b
+
+178. Which of these is used to access a member of class before object of that class is created?
+a) public
+b) private
+c) static
+d) protected Ans. c
+
+179. Which of these is used as a default for a member of a class if no access specifier is used for it?
+a) private
+b) public
+c) public, within its own package
+d) protected Ans. a
+
+180. What is the process by which we can control what parts of a program can access the members of a class?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Recursion Ans. c
+
+181. Which of the following statements are incorrect?
+a) public members of class can be accessed by any code in the program
+b) private members of class can only be accessed by other members of the class
+c) private members of class can be inherited by a subclass, and become protected members in subclass
+d) protected members of a class can be inherited by a subclass, and become private members of the subclass
+
+182. Which of these access specifier must be used for class so that it can be inherited by another subclass?
+a) public	b) private	c) protected	d) none of the mentioned Ans. a
+
+183. All the variables of class should be ideally declared as?
+a) private	b) public
+c) protected	d) default Ans. a
+
+184. Which of the following modifier means a particular variable cannot be accessed within the package?
+a) private
+b) public
+c) protected
+d) default Ans. a
+
+185. How can a protected modifier be accessed?
+a) accessible only within the class
+b) accessible only within package
+c) accessible within package and outside the package but through inheritance only
+d) accessible by all Ans. c
+
+186. What happens if constructor of class A is made private?
+a) Any class can instantiate objects of class A
+b) Objects of class A can be instantiated only within the class where it is declared
+c) Inherited class can instantiate objects of class A
+d) classes within the same package as class A can instantiate objects of class A Ans. b
+
+187. All the variables of interface should be?
+a) default and final
+b) default and static
+c) public, static and final
+d) protect, static and final Ans. c
+
+188. What is true of final class?
+a) Final class cause compilation failure
+b) Final class cannot be instantiated
+c) Final class cause runtime failure
+d) Final class cannot be inherited
+
+189. How many copies of static and class variables are created when 10 objects are created of a class? a) 1, 10	b) 10, 10	c) 10, 1	d) 1, 1
+Ans. a
+
+190. Which is the modifier when there is none mentioned explicitly?
+a) protected	b) private
+c) public	d) default Ans. d
+
+191. Arrays in Java are implemented as?
+a) class
+b) object
+c) variable
+d) none of the mentioned Ans. b
+
+192. Which of these keywords is used to prevent content of a variable from being modified?
+a) final
+b) last
+c) constant
+d) static Ans. a
+
+193. Which of these cannot be declared static?
+a) class
+b) object
+c) variable
+d) method Ans. b
+
+194. Which of the following statements are incorrect?
+a) static methods can call other static methods only
+b) static methods must only access static data
+c) static methods can not refer to this or super in any way
+d) when object of class is declared, each object contains its own copy of static variables Ans. d
+
+195. Which of the following statements are incorrect?
+a) Variables declared as final occupy memory
+b) final variable must be initialized at the time of declaration
+c) Arrays in java are implemented as an object
+d) All arrays contain an attribute-length which contains the number of elements stored in the array Ans. a
+
+196. Which of these methods must be made static?
+a) main()	b) delete()	c) run()	d) finalize() Ans. a
+
+197. String in Java is a?
+a) class
+b) object
+c) variable
+d) character array Ans. a
+
+198. Which of these method of String class is used to obtain character at specified index?
+a) char()
+b) Charat()
+c) charat()
+d) charAt() Ans. d
+
+199. Which of these keywords is used to refer to member of base class from a subclass?
+a) upper
+b) super
+c) this
+d) none of the mentioned Ans. b
+
+200. Which of these method of String class can be used to test to strings for equality?
+a) isequal()
+b) isequals()
+c) equal()
+d) equals() Ans. d
+
+201. Which of the following statements are incorrect?
+a) String is a class
+b) Strings in java are mutable
+c) Every string is an object of class String
+d) Java defines a peer class of String, called StringBuffer, which allows string to be altered Ans. b
+
+202. Which of these is the method which is executed first before execution of any other thing takes place in a program?
+a) main method	b) finalize method
+c) static method	d) private method Ans. c
+
+203. What is the process of defining more than one method in a class differentiated by parameters?
+a) Function overriding	b) Function overloading
+c) Function doubling	d) None of the mentioned Ans. b
+
+204. Which of these can be used to differentiate two or more methods having the same name?
+a) Parameters data type
+b) Number of parameters
+c) Return type of method
+d) All of the mentioned Ans. d
+
+205. Which of these data type can be used for a method having a return statement in it?
+a) void
+b) int
+c) float
+d) both int and float Ans. d
+
+206. Which of these statement is incorrect?
+a) Two or more methods with same name can be differentiated on the basis of their parameters data type
+b) Two or more method having same name can be differentiated on basis of number of parameters
+c) Any already defined method in java library can be defined again in the program with different data type of parameters
+d) If a method is returning a value the calling statement must have a variable to store that value Ans. d
+
+207. Which of this method is given parameter via command line arguments?
+a) main()
+b) recursive() method
+c) Any method
+d) System defined methods Ans. a
+
+208. Which of these data types is used to store command line arguments?
+a) Array
+b) Stack
+c) String
+d) Integer Ans. c
+
+209. How many arguments can be passed to main()?
+a) Infinite	b) Only 1	c) System Dependent	d) None of the mentioned Ans. a
+
+210. Which of these is a correct statement about args in the following line of code? public static void main(String args[])
+a) args is a String
+b) args is a Character
+c) args is an array of String
+d) args in an array of Character Ans. c
+
+211. Can command line arguments be converted into int automatically if required?
+a) Yes
+b) No
+c) Compiler Dependent
+d) Only ASCII characters can be converted Ans. b
+
+212. How do we pass command line argument in Eclipse?
+a) Arguments tab
+b) Variable tab
+c) Cannot pass command line argument in eclipse
+d) Environment variable tab Ans. a
+
+213. Which class allows parsing of command line arguments?
+a) Args
+b) JCommander
+c) Command Line
+d) Input Ans. b
+
+214. Which annotation is used to represent command line input and assigned to correct data type?
+a) @Input
+b) @Variable
+c) @Command Line
+d) @Parameter Ans. d
+
+215. What is the use of @syntax?
+a) Allows multiple parameters to be passed
+b) Allows one to put all your options into a file and pass this file as a parameter
+c) Allows one to pass only one parameter
+d) Allows one to pass one file containing only one parameter Ans. b
+
+216. What is Recursion in Java?
+a) Recursion is a class
+b) Recursion is a process of defining a method that calls other methods repeatedly
+c) Recursion is a process of defining a method that calls itself repeatedly
+d) Recursion is a process of defining a method that calls other methods which in turn call again this method
+Ans. c
+
+217. Which of these data types is used by operating system to manage the Recursion in Java?
+a) Array
+b) Stack
+c) Queue
+d) Tree Ans. b
+
+218. Which of these will happen if recursive method does not have a base case?
+a) An infinite loop occurs
+b) System stops the program after some time
+c) After 1000000 calls it will be automatically stopped
+d) None of the mentioned Ans. a
+
+219. Which of these is not a correct statement?
+a) A recursive method must have a base case
+b) Recursion always uses stack
+c) Recursive methods are faster that programmers written loop to call the function repeatedly using a stack
+d) Recursion is managed by Java Runtime environment Ans. d
+
+220. Which of these packages contains the exception Stack Overflow in Java?
+a) java.lang
+b) java.util
+c) java.io
+d) java.system Ans. a
+
+221. Which of this keyword can be used in a subclass to call the constructor of superclass?
+a) super
+b) this
+c) extent
+d) extends Ans. a
+
+222. What is the process of defining a method in a subclass having same name & type signature as a method in its superclass?
+a) Method overloading	b) Method overriding
+c) Method hiding	d) None of the mentioned Ans. b
+
+223. Which of these keywords can be used to prevent Method overriding?
+a) static
+b) constant
+c) protected
+d) final Ans. d
+
+224. Which of these is correct way of calling a constructor having no parameters, of superclass A by subclass B?
+a) super(void);
+b) superclass.();
+c) super.A();
+d) super(); Ans. d
+
+225. Which of these is supported by method overriding in Java?
+a) Abstraction
+b) Encapsulation
+c) Polymorphism
+d) None of the mentioned Ans. c
+
+226. Which of these method of Object class can clone an object?
+a) Objectcopy()
+b) copy()
+c) Object clone()
+d) clone() Ans. c
+
+227. Which of these method of Object class is used to obtain class of an object at run time?
+a) get()
+b) void getclass()
+c) Class getclass()
+d) None of the mentioned Ans. c
+
+228. Which of these keywords can be used to prevent inheritance of a class?
+a) super
+b) constant
+c) class
+d) final Ans. d
+
+229. Which of these keywords cannot be used for a class which has been declared final?
+a) abstract	b) extends	c) abstract and extends	d) none of the mentioned Ans. a
+
+230. Which of these class relies upon its subclasses for complete implementation of its methods?
+a) Object class	b) abstract class
+c) ArrayList class	d) None of the mentioned Ans. b
+
+231. Which of these keywords are used to define an abstract class?
+a) abst
+b) abstract
+c) Abstract
+d) abstract class Ans. b
+
+232. Which of these is not abstract?
+a) Thread
+b) AbstractList
+c) List
+d) None of the Mentioned Ans. a
+
+233. If a class inheriting an abstract class does not define all of its function then it will be known as?
+a) Abstract
+b) A simple class
+c) Static class
+d) None of the mentioned Ans. a
+
+234. Which of these is not a correct statement?
+a) Every class containing abstract method must be declared abstract
+b) Abstract class defines only the structure of the class not its implementation
+c) Abstract class can be initiated by new operator
+d) Abstract class can be inherited Ans. c
+
+235. Which of these packages contains abstract keyword?
+a) java.lang
+b) java.util
+c) java.io
+d) java.system Ans. a
+
+236. Which of this keyword must be used to inherit a class?
+a) super	b) this
+c) extent	d) extends Ans. d
+
+237. A class member declared protected becomes a member of subclass of which type?
+a) public member	b) private member
+c) protected member	d) static member Ans. b
+
+238. Which of these is correct way of inheriting class A by class B?
+a) class B + class A {}
+b) class B inherits class A {}
+c) class B extends A {}
+d) class B extends class A {} Ans. c
+
+239. What is not type of inheritance?
+a) Single inheritance
+b) Double inheritance
+c) Hierarchical inheritance
+d) Multiple inheritance Ans. b
+
+240. Using which of the following, multiple inheritance in Java can be implemented?
+a) Interfaces
+b) Multithreading
+c) Protected methods
+d) Private methods Ans. a
+
+241. All classes in Java are inherited from which class?
+a) java.lang.class
+b) java.class.inherited
+c) java.class.object
+d) java.lang.Object Ans. d
+
+242. In order to restrict a variable of a class from inheriting to subclass, how variable should be declared?
+a) Protected
+b) Private
+c) Public
+d) Static Ans. b
+
+243. If super class and subclass have same variable name, which keyword should be used to use super class?
+a) super	b) this	c) upper	d) classname Ans. a
+
+244. Which of the following is used for implementing inheritance through an interface?
+a) inherited	b) using	c) extends	d) implements Ans. d
+
+245. Which of the following is used for implementing inheritance through class?
+a) inherited
+b) using
+c) extends
+d) implements Ans. c
+
+246. What would be the result if a class extends two interfaces and both have a method with same name and signature? Lets assume that the class is not implementing that method.
+a) Runtime error
+b) Compile time error
+c) Code runs successfully
+d) First called method is executed successfully Ans. b
+
+247. Which of these class is superclass of String and StringBuffer class?
+a) java.util
+b) java.lang
+c) ArrayList
+d) None of the mentioned Ans. b
+
+248. Which of these operators can be used to concatenate two or more String objects?
+a) +
+b) +=
+c) &
+d) || Ans. a
+
+249. Which of this method of class String is used to obtain a length of String object?
+a) get()
+b) Sizeof()
+c) lengthof()
+d) length() Ans. d
+
+250. Which of these method of class String is used to extract a single character from a String object?
+a) CHARAT()	b) chatat()
+c) charAt()	d) ChatAt() Ans. c
+
+251. Which of these constructors is used to create an empty String object?
+a) String()
+b) String(void)
+c) String(0)
+d) None of the mentioned Ans. a
+
+252. Which of these is an incorrect statement?
+a) String objects are immutable, they cannot be changed
+b) String object can point to some other reference of String variable
+c) StringBuffer class is used to store string in a buffer for later use
+d) None of the mentioned Ans. c
+
+253. Which of these method of class String is used to extract more than one character at a time a String object?
+a) getchars()
+b) GetChars()
+c) Getchars()
+d) getChars() Ans. d
+
+254. Which of these methods is an alternative to getChars() that stores the characters in an array of bytes?
+a) getBytes()
+b) GetByte()
+c) giveByte()
+d) Give Bytes() Ans. a
+
+255. Which of these methods can be used to convert all characters in a String into a character array?
+a) charAt()
+b) both getChars() & charAt()
+c) both toCharArray() & getChars()
+d) all of the mentioned Ans. c
+
+256. Which of these method of class String is used to compare two String objects for their equality?
+a) equals()
+b) Equals()
+c) isequal()
+d) Isequal() Ans. a
+
+257. Which of these methods is used to compare a specific region inside a string with another specific region in another string?
+a) regionMatch()
+b) match()
+c) RegionMatches()
+d) regionMatches() Ans. d
+
+258. Which of these methods of class String is used to check whether a given object starts with a particular string literal?
+a) startsWith()
+b) endsWith()
+c) Starts()
+d) ends() Ans. a
+
+259. What is the value returned by function compareTo() if the invoking string is less than the string compared?
+a) zero
+b) value less than zero
+c) value greater than zero
+d) none of the mentioned Ans. b
+
+260. Which of these data type value is returned by equals() method of String class?
+a) char
+b) int
+c) boolean
+d) all of the mentioned Ans. c
+
+261. Which of this method of class String is used to extract a substring from a String object?
+a) substring()
+b) Substring()
+c) SubString()
+d) None of the mentioned Ans. a
+
+262. Which of these method of class String is used to remove leading and trailing whitespaces?
+a) startsWith()
+b) trim()
+c) Trim()
+d) doTrim() Ans. b
+
+263. What is the value returned by function compareTo() if the invoking string is greater than the string compared?
+a) zero
+b) value less than zero
+c) value greater than zero
+d) none of the mentioned Ans. c
+
+264. Which of the following statement is correct?
+a) replace() method replaces all occurrences of one character in invoking string with another character
+b) replace() method replaces only first occurrences of a character in invoking string with another character
+c) replace() method replaces all the characters in invoking string with another character
+d) replace() replace() method replaces last occurrence of a character in invoking string with another character
+Ans. a
+
+265. Which of these class is used to create an object whose character sequence is mutable?
+a) String()
+b) StringBuffer()
+c) String() & StringBuffer()
+d) None of the mentioned Ans. b
+
+266. Which of this method of class StringBuffer is used to concatenate the string representation to the end of invoking string?
+a) concat()
+b) append()
+c) join()
+d) concatenate() Ans. b
+
+267. Which of these method of class StringBuffer is used to find the length of current character sequence?
+a) length()
+b) Length()
+c) capacity()
+d) Capacity() Ans. a
+
+268. What is the string contained in s after following lines of Java code? StringBuffer s new StringBuffer("Hello");
+s.deleteCharAt(0);
+a) Hell	b) ello	c) Hel	d) llo Ans. b
+
+269. Which of the following statement is correct?
+a) reverse() method reverses all characters
+b) reverseall() method reverses all characters
+c) replace() method replaces first occurrence of a character in invoking string with another character
+d) replace() method replaces last occurrence of a character in invoking string with another character Ans. a
+
+270. Which of these methods of class StringBuffer is used to extract a substring from a String object?
+a) substring()	b) Substring()
+c) SubString()	d) None of the mentioned Ans. a
+
+271. Which of this method of class StringBuffer is used to reverse sequence of characters?
+a) reverse()
+b) reverseall()
+c) Reverse()
+d) reverseAll() Ans. a
+
+272. Which of this method of class StringBuffer is used to get the length of the sequence of characters?
+a) length()
+b) capacity()
+c) Length()
+d) Capacity() Ans. a
+
+273. Which of the following are incorrect form of StringBuffer class constructor?
+a) StringBuffer()
+b) StringBuffer(int size)
+c) StringBuffer(String str)
+d) StringBuffer(int size , String str) Ans. d
+
+274. Which of these classes is not included in java.lang?
+a) Byte
+b) Integer
+c) Array
+d) Class Ans. c
+
+275. Which of these is a process of converting a simple data type into a class?
+a) type wrapping	b) type conversion
+c) type casting	d) none of the Mentioned Ans. a
+
+276. Which of these is a super class of wrappers Double & Integer?
+a) Long	b) Digits	c) Float	d) Number Ans. d
+
+277. Which of these is a wrapper for simple data type float?
+a) float
+b) double
+c) Float
+d) Double Ans. c
+
+278. Which of the following is a method of wrapper Float for converting the value of an object into byte?
+a) bytevalue()
+b) byte byteValue()
+c) Bytevalue()
+d) Byte Bytevalue() Ans. b
+
+279. Which of these methods is used to check for infinitely large and small values?
+a) isInfinite()
+b) isNaN()
+c) Isinfinite()
+d) IsNaN() Ans. a
+
+280. Which of the following package stores all the simple data types in java?
+a) lang
+b) java
+c) util
+d) java.packages Ans. a
+
+281. Which of these is a wrapper for data type int?
+a) Integer
+b) Long
+c) Byte
+d) Double Ans. a
+
+282. Which of the following methods is a method of wrapper Integer for obtaining hash code for the invoking object?
+a) int hash()	b) int hashcode()
+c) int hashCode()	d) Integer hashcode() Ans. c
+
+283. Which of these is a super class of wrappers Long, Character & Integer?
+a) Long	b) Digits	c) Float	d) Number Ans. d
+
+284. Which of these is a wrapper for simple data type char?
+a) Float
+b) Character
+c) String
+d) Integer Ans. b
+
+285. Which of the following is method of wrapper Integer for converting the value of an object into int?
+a) bytevalue()
+b) int intValue();
+c) Bytevalue()
+d) Byte Bytevalue() Ans. b
+
+286. Which of these methods is used to obtain value of invoking object as a long?
+a) long value()
+b) long longValue()
+c) Long longvalue()
+d) Long Longvalue() Ans. b
+
+287. Which of these class have only one field ‘TYPE’?
+a) Void
+b) Process
+c) System
+d) Runtime Ans. a
+
+288. Which of the following method of Process class can terminate a process?
+a) void kill()
+b) void destroy()
+c) void terminate()
+d) void exit() Ans. b
+
+289. Standard output variable ‘out’ is defined in which class?
+a) Void	b) Process
+
+290. Which of these class can encapsulate an entire executing program?
+a) Void	b) Process	c) Runtime	d) System Ans. b
+
+291. Which of the following is method of System class is used to find how long a program takes to execute?
+a) currenttime()
+b) currentTime()
+c) currentTimeMillis()
+d) currenttimeMillis() Ans. c
+
+292. Which of these class holds a collection of static methods and variables?
+a) Void
+b) Process
+c) Runtime
+d) System Ans. d
+
+293. Which of these class is a superclass of all other classes?
+a) Math
+b) Process
+c) System
+d) Object Ans. d
+
+294. What is the value of double consonant ‘E’ defined in Math class?
+a) approximately 3
+b) approximately 3.14
+c) approximately 2.72
+d) approximately 0 Ans. c
+
+295. Which of these class contains only floating point functions?
+a) Math
+b) Process
+c) System
+d) Object Ans. a
+
+296. Which of these class encapsulate the runtime state of an object or an interface?
+a) Class	b) Object
+
+297. What is the value of “d” in the following Java code snippet?
+double d = Math.round ( 2.5 + Math.random() );
+a) 2
+b) 3
+c) 4
+d) 2.5
+Answer: b
+Explanation: The Math.random() method returns a number greater than or equal to 0 and less than 1. so
+2.5 will be greater than or equal to 2.5 and less than 3.5, we can be sure that Math.round() will round that number to 3.
+
+298. Which of these exceptions is thrown by methods of System class?
+a) IOException
+b) SystemException
+c) SecurityException
+d) InputOutputException Ans. c
+
+299. Which of these methods initiates garbage collection?
+a) gc()
+b) garbage()
+c) garbagecollection()
+d) Systemgarbagecollection() Ans. a
+
+300. Which of these methods loads the specified dynamic library?
+a) load()
+b) library()
+c) loadlib()
+d) loadlibrary() Ans. a
+
+301. Which of these values are returns under the case of normal termination of a program?
+a) 0
+b) 1
+c) 2
+d) 3 Ans. a
+
+302. Which of these is a super class of wrappers Double and Float?
+a) Long	b) Digits
+c) Float	d) Number Ans. d
+
+303. Which of the following methods return the value as a double?
+a) doubleValue()	b) converDouble()	c) getDouble()	d) getDoubleValue() Ans. a
+
+304. Which of these methods can be used to check whether the given value is a number or not?
+a) isNaN()
+b) isNumber()
+c) checkNaN()
+d) checkNumber() Ans. a
+
+305. Which of these exceptions is thrown by compareTo() method defined in a double wrapper?
+a) IOException
+b) SystemException
+c) CastException
+d) ClassCastException Ans. d
+
+306. Which of these packages contain classes and interfaces used for input & output operations of a program?
+a) java.util
+b) java.lang
+c) java.io
+d) all of the mentioned Ans. c
+
+307. Which of these class is not a member class of java.io package?
+a) String
+b) StringReader
+c) Writer
+d) File Ans. a
+
+308. Which of these interface is not a member of java.io package?
+a) DataInput
+b) ObjectInput
+c) ObjectFilter
+d) FileFilter Ans. c
+
+309. Which of these is specified by a File object?
+a) a file in disk	b) directory path
+c) directory in disk	d) none of the mentioned
+
+310. Which of these is method for testing whether the specified element is a file or a directory?
+a) IsFile()	b) isFile()	c) Isfile()	d) isfile() Ans. b
+
+311. Which of these classes is used for input and output operation when working with bytes?
+a) InputStream
+b) Reader
+c) Writer
+d) All of the mentioned Ans. a
+
+312. Which of these class is used to read and write bytes in a file?
+a) FileReader
+b) FileWriter
+c) FileInputStream
+d) InputStreamReader Ans. c
+
+313. Which of these method of InputStream is used to read integer representation of next available byte input?
+a) read()
+b) scanf()
+c) get()
+d) getInteger() Ans. a
+
+314. Which of these is a method to clear all the data present in output buffers?
+a) clear()
+b) flush()
+c) fflush()
+d) close() Ans. b
+
+315. Which of these method(s) is/are used for writing bytes to an outputstream?
+a) put()
+b) print() and write()
+c) printf()
+d) write() and read() Ans. b
+
+316. Which of these stream contains the classes which can work on character stream?
+a) InputStream	b) OutputStream
+c) Character Stream	d) All of the mentioned
+
+317. Which of these class is used to read characters in a file?
+a) FileReader	b) FileWriter
+c) FileInputStream	d) InputStreamReader Ans. a
+
+318. Which of these method of FileReader class is used to read characters from a file?
+a) read()	b) scanf()
+c) get()	d) getInteger() Ans. a
+
+319. Which of these classes can return more than one character to be returned to input stream?
+a) BufferedReader
+b) Bufferedwriter
+c) PushbachReader
+d) CharArrayReader Ans. c
+
+320. Which of the following is not a segment of memory in java?
+a) Stack Segment
+b) Heap Segment
+c) Code Segment
+d) Register Segment Ans. d
+
+321. What is JVM?
+a) Bootstrap
+b) Interpreter
+c) Extension
+d) Compiler Ans. b
+
+322. Which class loader loads jar files from JDK directory?
+a) Bootstrap
+b) Extension
+c) System
+d) Heap Ans. b
+
+323. Which of the following is not a memory classification in java?
+a) Young
+b) Old
+c) Permanent
+d) Temporary
+
+324. What is the Java 8 update of PermGen?
+a) Code Cache	b) Tenured Space	c) Metaspace	d) Eden space Ans. c
+
+325. Classes and Methods are stored in which space?
+a) Eden space
+b) Survivor space
+c) Tenured space
+d) Permanent space Ans. d
+
+326. Where is String Pool stored?
+a) Java Stack
+b) Java Heap
+c) Permanent Generation
+d) Metaspace Ans. b
+
+327. Which of these exceptions handles the situations when an illegal argument is used to invoke a method?
+a) IllegalException
+b) Argument Exception
+c) IllegalArgumentException
+d) IllegalMethodArgumentExcepetion Ans. c
+
+328. Which of these exceptions will be thrown if we declare an array with negative size?
+a) IllegalArrayException
+b) IllegalArraySizeExeption
+c) NegativeArrayException
+d) NegativeArraySizeExeption Ans. d
+
+329. Which of these packages contain all the Java’s built in exceptions?
+a) java.io
+b) java.util
+c) java.lang
+d) java.net Ans. c
+
+330. Which of these exceptions will be thrown if we use null reference for an arithmetic operation?
+a) ArithmeticException	b) NullPointerException
+c) IllegalAccessException	d) IllegalOperationException Ans. b
+
+331. Which of these class is used to create user defined exception?
+a) java.lang	b) Exception	c) RunTime	d) System Ans. b
+
+332. Which of these class provides various types of rounding functions?
+a) Math
+b) Process
+c) System
+d) Object Ans. a
+
+333. Which of these methods return a smallest whole number greater than or equal to variable X?
+a) double ceil(double X)
+b) double floor(double X)
+c) double max(double X)
+d) double min(double X) Ans. a
+
+334. Which of these method returns a largest whole number less than or equal to variable X?
+a) double ceil(double X)
+b) double floor(double X)
+c) double max(double X)
+d) double min(double X) Ans. b
+
+335. Which of these methods of Byte wrapper can be used to obtain Byte object from a string?
+a) toString()
+b) getString()
+c) decode()
+d) encode() Ans. c
+
+336. Which of the following methods Byte wrapper return the value as a double?
+a) doubleValue()
+b) converDouble()
+c) getDouble()
+d) getDoubleValue() Ans. a
+
+337. Which of these is a super class of wrappers Byte and short wrappers?
+a) Long	b) Digits
+c) Float	d) Number Ans. d
+
+338. Which of these methods is not defined in both Byte and Short wrappers?
+a) intValue()	b) isInfinite()   c) toString()	d) hashCode() Ans. b
+
+339. Which of these methods of Character wrapper can be used to obtain the char value contained in Character object.
+a) get()
+b) getVhar()
+c) charValue()
+d) getCharacter() Ans. c
+
+340. Which of the following constant are defined in Character wrapper?
+a) MAX_RADIX
+b) MAX_VALUE
+c) TYPE
+d) All of the mentioned Ans. d
+
+341. Which of these is a super class of Character wrapper?
+a) Long
+b) Digits
+c) Float
+d) Number Ans. d
+
+342. Which of these methods is used to know whether a given Character object is part of Java’s Identifiers?
+a) isIdentifier()
+b) isJavaIdentifier()
+c) isJavaIdentifierPart()
+d) none of the mentioned Ans. c
+
+343. Which of these coding techniques is used by method isDefined()?
+a) Latin
+b) ASCII
+c) ANSI
+d) UNICODE Ans. d
+
+344. Which of these methods of Boolean wrapper returns boolean equivalent of an object.
+a) getBool()	b) booleanValue()
+c) getbooleanValue()	d) getboolValue() Ans. b
+
+345. Which of these methods return string equivalent of Boolean object?
+a) getString()	b) toString()	c) converString()	d) getStringObject() Ans. b
+
+346. Which of these methods is used to know whether a string contains “true”?
+a) valueOf()
+b) valueOfString()
+c) getString()
+d) none of the mentioned Ans. a
+
+347. Which of these class have only one field?
+a) Character
+b) Boolean
+c) Byte
+d) void Ans. d
+
+348. Which of these class contains all the methods present in Math class?
+a) SystemMath
+b) StrictMath
+c) Compiler
+d) ClassLoader Ans. b
+
+349. Which of these method return a pseudorandom number?
+a) rand()
+b) random()
+c) randomNumber()
+d) randGenerator() Ans. b
+
+350. Which of these method returns the remainder of dividend / divisor?
+a) remainder()
+b) getRemainder()
+c) CSIremainder()
+d) IEEEremainder() Ans. d
+
+351. toRadian() and toDegree() methods were added by which version of Java?
+a) Java 1.0	b) Java 1.5
+c) Java 2.0	d) Java 3.0 Ans. c
+
+352. Which of these method returns a smallest whole number greater than or equal to variable X?
+a) double ciel(double X)	b) double floor(double X)
+c) double max(double X)	d) double min(double X) Ans. a
+
+353. Which of these classes encapsulate runtime environment?
+a) Class
+b) System
+c) Runtime
+d) ClassLoader Ans. c
+
+354. Which of the following exceptions is thrown by every method of Runtime class?
+a) IOException
+b) SystemException
+c) SecurityException
+d) RuntimeException Ans. c
+
+355. Which of these methods returns the total number of bytes of memory available to the program?
+a) getMemory()
+b) TotalMemory()
+c) SystemMemory()
+d) getProcessMemory() Ans. b
+
+356. Which of these classes encapsulate runtime state of an object?
+a) Class
+b) System
+c) Runtime
+d) Cache Ans. a
+
+357. Which of these methods returns the class of an object?
+a) getClass()
+b) Class()
+c) WhoseClass()
+d) WhoseObject() Ans. a
+
+358. Which of these methods return a class object given its name?
+a) getClass()	b) findClass()
+c) getSystemClass()	d) findSystemClass() Ans. d
+
+359. Which of these class defines how the classes are loaded?
+a) Class	b) System	c) Runtime	d) ClassLoader Ans. d
+
+360. Which of the interface contains all the methods used for handling thread related operations in Java?
+a) Runnable interface
+b) Math interface
+c) System interface
+d) ThreadHandling interface Ans. a
+
+361. Which of these class is used to make a thread?
+a) String
+b) System
+c) Thread
+d) Runnable Ans. c
+
+362. Which of this interface is implemented by Thread class?
+a) Runnable
+b) Connections
+c) Set
+d) MapConnections Ans. a
+
+363. Which object Java application uses to create a new process?
+a) Process
+b) Builder
+c) ProcessBuilder
+d) CreateBuilder Ans. c
+
+364. Which of the following is true about Java system properties?
+a) Java system properties are accessible by any process
+b) Java system properties are accessible by processes they are added to
+c) Java system properties are retrieved by System.getenv()
+d) Java system properties are set by System.setenv() Ans. b
+
+365. What does System.getProperty(“variable”) return?
+a) compilation error	b) value stored in variable
+c) runtime error	d) null Ans. d
+
+366. What is true about the setProperties method?
+a) setProperties method changes the set of Java Properties which are persistent
+b) Changing the system properties within an application will affect future invocations
+c) setProperties method changes the set of Java Properties which are not persistent
+d) setProperties writes the values directly into the file which stores all the properties Ans. c
+
+367. How to use environment properties in the class?
+a) @Environment	b) @Variable	c) @Property	d) @Autowired Ans. d
+
+368. Which environment variable is used to set java path?
+a) JAVA
+b) JAVA_HOME
+c) CLASSPATH
+d) MAVEN_HOME Ans. b
+
+369. How to read a classpath file?
+a) InputStream in = this.getClass().getResource(“SomeTextFile.txt”);
+b) InputStream in = this.getClass().getResourceClasspath(“SomeTextFile.txt”);
+c) InputStream in = this.getClass().getResourceAsStream(“SomeTextFile.txt”);
+d) InputStream in = this.getClass().getResource(“classpath:/SomeTextFile.txt”); Ans. c
+
+370. Which of these is a process of writing the state of an object to a byte stream?
+a) Serialization
+b) Externalization
+c) File Filtering
+d) All of the mentioned Ans. a
+
+371. Which of these process occur automatically by the java runtime system?
+a) Serialization
+b) Garbage collection
+c) File Filtering
+d) All of the mentioned Ans. a
+
+372. Which of these is an interface for control over serialization and deserialization?
+a) Serializable	b) Externalization
+c) FileFilter	d) ObjectInput
+
+373. Which of these interface extends DataOutput interface?
+a) Serializable
+b) Externalization
+c) ObjectOutput
+d) ObjectInput Ans. c
+
+374. Which of these is a method of ObjectOutput interface used to finalize the output state so that any buffers are cleared?
+a) clear()
+b) flush()
+c) fflush()
+d) close() Ans. b
+
+375. Which of these is method of ObjectOutput interface used to write the object to input or output stream as required?
+a) write()
+b) Write()
+c) StreamWrite()
+d) writeObject() Ans. d
+
+376. How an object can become serializable?
+a) If a class implements java.io.Serializable class
+b) If a class or any superclass implements java.io.Serializable interface
+c) Any object is serializable
+d) No object is serializable Ans. b
+
+377. What is serialization?
+a) Turning object in memory into stream of bytes
+b) Turning stream of bytes into an object in memory
+c) Turning object in memory into stream of bits
+d) Turning stream of bits into an object in memory Ans. a
+
+378. What is deserialization?
+a) Turning object in memory into stream of bytes
+b) Turning stream of bytes into an object in memory
+c) Turning object in memory into stream of bits
+d) Turning stream of bits into an object in memory
+
+379. How many methods Serializable has?
+a) 1
+b) 2
+c) 3
+d) 0 Answer: d
+Explanation: Serializable interface does not have any method. It is also called a marker interface.
+
+380. What type of members are not serialized?
+a) Private
+b) Protected
+c) Static
+d) Throwable Ans. c
+
+381. If member does not implement serialization, which exception would be thrown?
+a) RuntimeException
+b) SerializableException
+c) NotSerializableException
+d) UnSerializedException Ans. c
+
+382. Which of the following methods is used to avoid serialization of new class whose super class already implements Serialization?
+a) writeObject()
+b) readWriteObject()
+c) writeReadObject()
+d) unSerializaedObject() Ans. a
+
+383. Which of the following methods is not used while Serialization and DeSerialization?
+a) readObject()
+b) readExternal()
+c) readWriteObject()
+d) writeObject() Ans. c
+
+384. Which of these is a process of extracting/removing the state of an object from a stream?
+a) Serialization
+b) Externalization
+c) File Filtering
+d) Deserialization
+
+385. Which of these process occur automatically by java run time system?
+a) Serialization	b) Memory allocation	c) Deserialization	d) All of the mentioned Ans. d
+
+386. Which of these interface extends DataInput interface?
+a) Serializable
+b) Externalization
+c) ObjectOutput
+d) ObjectInput Ans. d
+
+387. Which of these is a method of ObjectInput interface used to deserialize an object from a stream?
+a) int read()
+b) void close()
+c) Object readObject()
+d) Object WriteObject() Ans. c
+
+388. Which of these class extend InputStream class?
+a) ObjectStream
+b) ObjectInputStream
+c) ObjectOutput
+d) ObjectInput Ans. b
+
+389. Which of these package contains classes and interfaces for networking?
+a) java.io
+b) java.util
+c) java.net
+d) java.network Ans. c
+
+390. Which of these is a protocol for breaking and sending packets to an address across a network?
+a) TCP/IP
+b) DNS
+c) Socket
+d) Proxy Server Ans. a
+
+391. Which of these methods of httpd class is used to read data from the stream?
+a) getDta()	b) GetResponse()
+c) getStream()	d) getRawRequest()
+
+392. Which of these interface abstractes the output of messages from httpd?
+a) LogMessage	b) LogResponse
+c) Httpdserver	d) httpdResponse Ans. a
+
+393. How many ports of TCP/IP are reserved for specific protocols?
+a) 10
+b) 1024
+c) 2048
+d) 512
+Ans. b
+
+394. Which of these is a protocol for breaking and sending packets to an address across a network?
+a) TCP/IP
+b) DNS
+c) Socket
+d) Proxy Server Ans. a
+
+395. Which of these class is used to encapsulate IP address and DNS?
+a) DatagramPacket
+b) URL
+c) InetAddress
+d) ContentHandler Ans. c
+
+396. Which of these class is used to create servers that listen for either local or remote client programs?
+a) httpServer
+b) ServerSockets
+c) MimeHeader
+d) HttpResponse Ans. b
+
+397. Which of these is a standard for communicating multimedia content over email?
+a) http
+b) https
+c) Mime
+d) httpd Ans. c
+
+398. Which of these methods is used to make raw MIME formatted string?
+a) parse()	b) toString()
+c) getString()	d) parseString()
+
+399. Which of these class is used for operating on request from the client to the server?
+a) http	b) httpDecoder	c) httpConnection	d) httpd Ans. d
+
+400. Which of these method of MimeHeader is used to return the string equivalent of the values stores on MimeHeader?
+a) string()
+b) toString()
+c) convertString()
+d) getString() Ans. b
+
+401. Which of these is an instance variable of class httpd?
+a) port
+b) cache
+c) log
+d) All of the mentioned Ans. d
+
+402. Which of these methods of httpd class is used to read data from the stream?
+a) getDta()
+b) GetResponse()
+c) getStream()
+d) getRawRequest() Ans. d
+
+403. Which of these method of httpd class is used to get report on each hit to HTTP server?
+a) log()
+b) logEntry()
+c) logHttpd()
+d) logResponse() Ans. b
+
+404. Which of these methods are used to find a URL from the cache of httpd?
+a) findfromCache()
+b) findFromCache()
+c) serveFromCache()
+d) getFromCache() Ans. c
+
+405. Which of these method of httpd class is used to write UrlCacheEntry object into local disk?
+a) writeDiskCache()	b) writetoDisk()
+c) writeCache()	d) writeDiskEntry()
+
+406. Which of these method is used to start a server thread?
+a) run()	b) start()
+c) runThread()	d) startThread() Ans. a
+
+407. Which of these method is called when http daemon is acting like a normal web server?
+a) Handle()
+b) HandleGet()
+c) handleGet()
+d) Handleget() Ans. c
+
+408. Which of these exceptions is thrown by URL class’s constructors?
+a) URLNotFound
+b) URLSourceNotFound
+c) MalformedURLException
+d) URLNotFoundException Ans. c
+
+409. Which of these methods is used to know host of an URL?
+a) host()
+b) getHost()
+c) GetHost()
+d) gethost() Ans. b
+
+410. Which of these methods is used to know the full URL of an URL object?
+a) fullHost()
+b) getHost()
+c) ExternalForm()
+d) toExternalForm() Ans. d
+
+411. Which of these class is used to access actual bits or content information of a URL?
+a) URL
+b) URLDecoder
+c) URLConnection
+d) All of the mentioned Ans. d
+
+412. Which of these is a wrapper around everything associated with a reply from an http server?
+a) HTTP	b) HttpResponse
+c) HttpRequest	d) httpserver
+
+413. Which of these transfer protocol must be used so that URL can be accessed by URLConnection class object?
+a) http
+b) https
+c) Any Protocol can be used
+d) None of the mentioned Ans. a
+
+414. Which of these methods is used to know when was the URL last modified?
+a) LastModified()	b) getLastModified()
+c) GetLastModified()	d) getlastModified()() Ans. b
+
+415. Which of these methods is used to know the type of content used in the URL?
+a) ContentType()
+b) contentType()
+c) getContentType()
+d) GetContentType() Ans. c
+
+416. Which of these data member of HttpResponse class is used to store the response from an http server?
+a) status
+b) address
+c) statusResponse
+d) statusCode Ans. d
+
+417. Which of these is a bundle of information passed between machines?
+a) Mime
+b) Cache
+c) Datagrams
+d) DatagramSocket Ans. c
+
+418. Which of these class is necessary to implement datagrams?
+a) DatagramPacket
+b) DatagramSocket
+c) All of the mentioned
+d) None of the mentioned Ans. c
+
+419. Which of these method of DatagramPacket is used to find the port number?
+a) port()	b) getPort()	c) findPort()	d) recievePort()
+
+420. Which of these methods of DatagramPacket is used to find the length of byte array?
+a) getnumber()	b) length()	c) Length()	d) getLength() Ans. d
+
+421. Which of these class must be used to send a datagram packets over a connection?
+a) InetAdress
+b) DatagramPacket
+c) DatagramSocket
+d) All of the mentioned Ans. d
+
+422. Which of these method of DatagramPacket class is used to find the destination address?
+a) findAddress()
+b) getAddress()
+c) Address()
+d) whois() Ans. b
+
+423. Which of these is a return type of getAddress() method of DatagramPacket class?
+a) DatagramPacket
+b) DatagramSocket
+c) InetAddress
+d) ServerSocket Ans. c
+
+424. Which API gets the SocketAddress (usually IP address + port number) of the remote host that this packet is being sent to or is coming from.
+a) getSocketAddress()
+b) getAddress()
+c) address()
+d) none of the mentioned Ans. a
+
+425. Which of these standard collection classes implements a dynamic array?
+a) AbstractList
+b) LinkedList
+c) ArrayList
+d) AbstractSet Ans. c
+
+426. Which of these class can generate an array which can increase and decrease in size automatically?
+a) ArrayList()	b) DynamicList()
+c) LinkedList()	d) MallocList()
+
+427. Which of these method can be used to increase the capacity of ArrayList object manually?
+a) Capacity()	b) increaseCapacity()
+c) increasecapacity()	d) ensureCapacity() Ans. d
+
+428. Which of these method of ArrayList class is used to obtain present size of an object?
+a) size()	b) length()
+c) index()	d) capacity() Ans. a
+
+429. Which of these methods can be used to obtain a static array from an ArrayList object?
+a) Array()
+b) covertArray()
+c) toArray()
+d) covertoArray() Ans. c
+
+430. Which of these method is used to reduce the capacity of an ArrayList object?
+a) trim()
+b) trimSize()
+c) trimTosize()
+d) trimToSize() Ans. d
+
+431. Which of the below does not implement Map interface?
+a) HashMap
+b) Hashtable
+c) EnumMap
+d) Vector Ans. d
+
+432. What is the premise of equality for IdentityHashMap?
+a) Reference equality
+b) Name equality
+c) Hashcode equality
+d) Length equality Ans. a
+
+433. What happens if we put a key object in a HashMap which exists?
+a) The new object replaces the older object
+b) The new object is discarded
+c) The old object is removed from the map
+d) It throws an exception as the key already exists in the map
+
+434. While finding the correct location for saving key value pair, how many times the key is hashed?
+a) 1	b) 2	c) 3	d) unlimited till bucket is found Ans. b
+
+435. If two threads access the same hashmap at the same time, what would happen?
+a) ConcurrentModificationException	b) NullPointerException
+c) ClassNotFoundException	d) RuntimeException Ans. a
+
+436. If large number of items are stored in hash bucket, what happens to the internal structure?
+a) The bucket will switch from LinkedList to BalancedTree
+b) The bucket will increase its size by a factor of load size defined
+c) The LinkedList will be replaced by another hashmap
+d) Any further addition throws Overflow exception Ans. a
+
+437. How can we remove an object from ArrayList?
+a) remove() method
+b) using Iterator
+c) remove() method and using Iterator
+d) delete() method Ans. c
+
+438. How to remove duplicates from List?
+a) HashSet<String> listToSet = new HashSet<String>(duplicateList);
+b) HashSet<String> listToSet = duplicateList.toSet();
+c) HashSet<String> listToSet = Collections.convertToSet(duplicateList);
+d) HashSet<String> listToSet = duplicateList.getSet(); Ans. a
+
+439. How to sort elements of ArrayList?
+a) Collection.sort(listObj);
+b) Collections.sort(listObj);
+c) listObj.sort();
+d) Sorter.sortAsc(listObj); Ans. b
+
+440. How is Arrays.asList() different than the standard way of initialising List?
+a) Both are same
+b) Arrays.asList() throws compilation error
+c) Arrays.asList() returns a fixed length list and doesn’t allow to add or remove elements
+d) We cannot access the list returned using Arrays.asList() Ans. c
+
+441. What is the difference between length() and size() of ArrayList?
+a) length() and size() return the same value
+b) length() is not defined in ArrayList
+c) size() is not defined in ArrayList
+d) length() returns the capacity of ArrayList and size() returns the actual number of elements stored in the list
+Ans. d
+
+442. Which class provides thread safe implementation of List?
+a) ArrayList	b) CopyOnWriteArrayList
+c) HashList	d) List Ans. b
+
+443. Which of the below is not an implementation of List interface?
+a) RoleUnresolvedList
+b) Stack
+c) AttibuteList
+d) SessionList Ans. d
+
+444. What is the worst case complexity of accessing an element in ArrayList?
+a) O(n)
+b) O(1)
+c) O(nlogn)
+d) O(2) Ans. b
+
+445. What is the default clone of HashSet?
+a) Deep clone
+b) Shallow clone
+c) Plain clone
+d) Hollow clone Ans. b
+
+446. What does Collections.emptySet() return?
+a) Immutable Set
+b) Mutable Set
+c) The type of Set depends on the parameter passed to the emptySet() method
+d) Null object Ans. a
+
+447. What are the initial capacity and load factor of HashSet? a) 10, 1.0	b) 32, 0.75	c) 16, 0.75	d) 32, 1.0
+
+448. What is the relation between hashset and hashmap?
+a) HashSet internally implements HashMap
+b) HashMap internally implements HashSet
+c) HashMap is the interface; HashSet is the concrete class
+d) HashSet is the interface; HashMap is the concrete class Ans. a
+
+449. What is the difference between TreeSet and SortedSet?
+a) TreeSet is more efficient than SortedSet
+b) SortedSet is more efficient than TreeSet
+c) TreeSet is an interface; SortedSet is a concrete class
+d) SortedSet is an interface; TreeSet is a concrete class Ans. d
+
+450. What happens if two threads simultaneously modify TreeSet?
+a) ConcurrentModificationException is thrown
+b) Both threads can perform action successfully
+c) FailFastException is thrown
+d) IteratorModificationException is thrown Ans. a
+
+451. What is the unique feature of LinkedHashSet?
+a) It is not a valid class
+b) It maintains the insertion order and guarantees uniqueness
+c) It provides a way to store key values with uniqueness
+d) The elements in the collection are linked to each other Ans. b
+
+452. Which of these standard collection classes implements a linked list data structure?
+a) AbstractList
+b) LinkedList
+c) HashSet
+d) AbstractSet Ans. b
+
+453. Which of these classes implements Set interface?
+a) ArrayList	b) HashSet
+c) LinkedList	d) DynamicList Ans. b
+
+454. Which of these method is used to add an element to the start of a LinkedList object?
+a) add()	b) first()
+c) AddFirst()	d) addFirst()
+
+455. Which of these method of HashSet class is used to add elements to its object?
+a) add()	b) Add()	c) addFirst()	d) insert() Ans. a
+
+456. Which of these methods can be used to delete the last element in a LinkedList object?
+a) remove()
+b) delete()
+c) removeLast()
+d) deleteLast() Ans. c
+
+457. Which of this method is used to change an element in a LinkedList Object?
+a) change()
+b) set()
+c) redo()
+d) add() Ans. b
+
+458. Which of these object stores association between keys and values?
+a) Hash table
+b) Map
+c) Array
+d) String Ans. b
+
+459. Which of these classes provide implementation of map interface?
+a) ArrayList
+b) HashMap
+c) LinkedList
+d) DynamicList Ans. b
+
+460. Which of these method is used to remove all keys/values pair from the invoking map?
+a) delete()
+b) remove()
+c) clear()
+d) removeAll() Ans. b
+
+461. Which of these methods can be used to obtain set of all keys in a map?
+a) getAll()	b) getKeys()
+c) keyall()	d) keySet() Ans. d
+
+462. Which of these method is used add an element and corresponding key to a map?
+a) put()	b) set()	c) redo()	d) add() Ans. a
+
+463. Which of these class object can be used to form a dynamic array?
+a) ArrayList
+b) Map
+c) Vector
+d) ArrayList & Vector Ans. d
+
+464. Which of these are legacy classes?
+a) Stack
+b) Hashtable
+c) Vector
+d) All of the mentioned Ans. d
+
+465. Which of these is the interface of legacy?
+a) Map
+b) Enumeration
+c) HashMap
+d) Hashtable Ans. b
+
+466. Which of these methods is used to add elements in vector at specific location?
+a) add()
+b) set()
+c) AddElement()
+d) addElement() Ans. d
+
+467. Which of these class object uses the key to store value?
+a) Dictionary
+b) Map
+c) Hashtable
+d) All of the mentioned Ans. d
+
+468. Which of these method is used to insert value and its key?
+a) put()	b) set()
+c) insertElement()	d) addElement()
+
+469. Which of these is the interface of legacy is implemented by Hashtable and Dictionary classes?
+a) Map	b) Enumeration	c) HashMap	d) Hashtable Ans. a
+
+470. Which of these is a class which uses String as a key to store the value in object?
+a) Array
+b) ArrayList
+c) Dictionary
+d) Properties Ans. d
+
+471. Which of these methods is used to retrieve the elements in properties object at specific location?
+a) get()
+b) Elementat()
+c) ElementAt()
+d) getProperty() Ans. d
+
+472. Which of these class object has an architecture similar to that of array?
+a) Bitset
+b) Map
+c) Hashtable
+d) All of the mentioned Ans. a
+
+473. Which of these method is used to make a bit zero specified by the index?
+a) put()
+b) set()
+c) remove()
+d) clear() Ans. d
+
+474. Which of these method is used to calculate number of bits required to hold the BitSet object?
+a) size()
+b) length()
+c) indexes()
+d) numberofBits() Ans. b
+
+475. Which of these methods is used to retrieve elements in BitSet object at specific location?
+a) get()	b) Elementat()
+c) ElementAt()	d) getProperty()
+
+476. What is Remote method invocation (RMI)?
+a) RMI allows us to invoke a method of java object that executes on another machine
+b) RMI allows us to invoke a method of java object that executes on another Thread in multithreaded programming
+c) RMI allows us to invoke a method of java object that executes parallely in same machine
+d) None of the mentioned Ans. a
+
+477. Which of these package is used for remote method invocation?
+a) java.applet	b) java.rmi
+c) java.lang.rmi	d) java.lang.reflect Ans. b
+
+478. Which of these methods are member of Remote class?
+a) checkIP()
+b) addLocation()
+c) AddServer()
+d) None of the mentioned Ans. d
+
+479. Which of these class is used for creating a client for a server-client operations?
+a) serverClientjava
+b) Client.java
+c) AddClient.java
+d) ServerClient.java Ans. c
+
+480. Which of these package is used for all the text related modifications?
+a) java.text
+b) java.awt
+c) java.lang.text
+d) java.text.modify Ans. a
+
+481. Which of these packages contain all the collection classes?
+a) java.lang
+b) java.util
+c) java.net
+d) java.awt Ans. b
+
+482. Which of these classes is not part of Java’s collection framework?
+a) Maps	b) Array	c) Stack	d) Queue Ans. a
+
+483. Which of this interface is not a part of Java’s collection framework?
+a) List	b) Set	c) SortedMap	d) SortedList Ans. d
+
+484. What is Collection in Java?
+a) A group of objects
+b) A group of classes
+c) A group of interfaces
+d) None of the mentioned Ans. a
+
+485. Which of these return type of hasNext() method of an iterator?
+a) Integer
+b) Double
+c) Boolean
+d) Collections Object Ans. c
+
+486. Which of these methods is used to obtain an iterator to the start of collection?
+a) start()
+b) begin()
+c) iteratorSet()
+d) iterator() Ans. d
+
+487. Which of these methods can be used to move to next element in a collection?
+a) next()
+b) move()
+c) shuffle()
+d) hasNext() Ans. a
+
+488. Which of these iterators can be used only with List?
+a) Setiterator
+b) ListIterator
+c) Literator
+d) None of the mentioned Ans. b
+
+489. Which of these is a method of ListIterator used to obtain index of previous element?
+a) previous()	b) previousIndex()
+c) back()	d) goBack() Ans. b
+
+490. Which of these exceptions is thrown by remover() method?
+a) IOException	b) SystemException
+c) ObjectNotFoundExeception	d) IllegalStateException Ans. d
+
+491. Which of the below is not a subinterface of Queue?
+a) BlockingQueue
+b) BlockingEnque
+c) TransferQueue
+d) BlockingQueue Ans. b
+
+492. What is the remaining capacity of BlockingQueue whose intrinsic capacity is not defined?
+a) Integer.MAX_VALUE
+b) BigDecimal.MAX_VALUE
+c) 99999999
+d) Integer.INFINITY Ans. a
+
+493. What is difference between dequeue() and peek() function of java?
+a) dequeue() and peek() remove and return the next time in line
+b) dequeue() and peek() return the next item in line
+c) dequeue() removes and returns the next item in line while peek() returns the next item in line
+d) peek() removes and returns the next item in line while dequeue() returns the next item in line Ans. c
+
+494. What is the difference between Queue and Stack?
+a) Stack is LIFO; Queue is FIFO
+b) Queue is LIFO; Stack is FIFO
+c) Stack and Queue is FIFO
+d) Stack and Queue is LIFO Ans. a
+
+495. What are the use of front and rear pointers in CircularQueue implementation?
+a) Front pointer points to first element; rear pointer points to the last element
+b) Rear pointer points to first element; front pointer points to the last element
+c) Front and read pointers point to the first element
+d) Front pointer points to the first element; rear pointer points to null object Ans. c
+
+496. What is the correct method used to insert and delete items from the queue?
+a) push and pop	b) enqueue and dequeue
+c) enqueue and peek	d) add and remove Ans. b
+
+497. Which data structure is used in Breadth First Traversal of a graph?
+a) Stack
+b) Queue
+c) Array
+d) Tree Ans. b
+
+498. Where does a new element be inserted in linked list implementation of a queue?
+a) Head of list
+b) Tail of list
+c) At the centre of list
+d) All the old entries are pushed and then the new element is inserted Ans. b
+
+499. If the size of the array used to implement a circular queue is MAX_SIZE. How rear moves to traverse inorder to insert an element in the queue?
+a) rear=(rear%1)+MAX_SIZE
+b) rear=(rear+1)%MAX_SIZE
+c) rear=rear+(1%MAX_SIZE)
+d) rear=rear%(MAX_SIZE+1) Ans. b
+
+500. Which of these standard collection classes implements all the standard functions on list data structure?
+a) Array
+b) LinkedList
+c) HashSet
+d) AbstractSet Ans. a
+
+501. Which of this method is used to make all elements of an equal to specified value?
+a) add()
+b) fill()
+c) all()
+d) set() Ans. b
+
+502. Which of these method of Array class is used sort an array or its subset?
+a) binarysort()
+b) bubblesort()
+c) sort()
+d) insert()
+
+503. Which of these methods can be used to search an element in a list?
+a) find()	b) sort()	c) get()	d) binaryserach() Ans. d
+
+504. Which of these interface declares core method that all collections will have?
+a) set	b) EventListner
+c) Comparator	d) Collection Ans. d
+
+505. Which of these interface handle sequences?
+a) Set
+b) List
+c) Comparator
+d) Collection Ans. b
+
+506. Which of this interface must contain a unique element?
+a) Set
+b) List
+c) Array
+d) Collection Ans. a
+
+507. Which of these is a Basic interface that all other interface inherits?
+a) Set
+b) Array
+c) List
+d) Collection Ans. d
+
+508. Which of these is static variable defined in Collections?
+a) EMPTY_SET
+b) EMPTY_LIST
+c) EMPTY_MAP
+d) All of the mentioned Ans. d
+
+509. Which of these is an incorrect form of using method max() to obtain a maximum element?
+a) max(Collection c)
+b) max(Collection c, Comparator comp)
+c) max(Comparator comp)
+d) max(List c)
+
+510. Which of these methods sets every element of a List to a specified object?
+a) set()	b) fill()	c) Complete()	d) add() Ans. b
+
+511. Which of these methods can randomize all elements in a list?
+a) rand()
+b) randomize()
+c) shuffle()
+d) ambiguous() Ans. c
+
+512. Which of these is true about unmodifiableCollection() method?
+a) unmodifiableCollection() returns a collection that cannot be modified
+b) unmodifiableCollection() method is available only for List and Set
+c) unmodifiableCollection() is defined in Collection class
+d) none of the mentioned Ans. b
+
+513. When does Exceptions in Java arises in code sequence?
+a) Run Time
+b) Compilation Time
+c) Can Occur Any Time
+d) None of the mentioned Ans. a
+
+514. Which of these keywords is not a part of exception handling?
+a) try
+b) finally
+c) thrown
+d) catch Ans. c
+
+515. Which of these keywords must be used to monitor for exceptions?
+a) try
+b) finally
+c) throw
+d) catch Ans. a
+
+516. Which of these keywords must be used to handle the exception thrown by try block in some rational manner?
+a) try	b) finally
+c) throw	d) catch Ans. d
+
+517. Which of these keywords is used to manually throw an exception?
+a) try
+b) finally
+c) throw
+d) catch Ans. c
+
+518. Which of the following keywords is used for throwing exception manually?
+a) finally
+b) try
+c) throw
+d) catch Ans. c
+
+519. Which of the following classes can catch all exceptions which cannot be caught?
+a) RuntimeException
+b) Error
+c) Exception
+d) ParentException Ans. b
+
+520. Which of the following is a super class of all exception type classes?
+a) Catchable
+b) RuntimeExceptions
+c) String
+d) Throwable Ans. d
+
+521. Which of the following operators is used to generate instance of an exception which can be thrown using throw?
+a) thrown
+b) alloc
+c) malloc
+d) new Ans. d
+
+522. Which of the following keyword is used by calling function to handle exception thrown by called function?
+a) throws
+b) throw
+c) try
+d) catch Ans. a
+
+523. Which of the following handles the exception when a catch is not used?
+a) finally	b) throw handler
+c) default handler	d) java run time system Ans. c
+
+524. Which part of code gets executed whether exception is caught or not?
+a) finally
+b) try
+c) catch
+d) throw Ans. a
+
+525. Which of the following should be true of the object thrown by a thrown statement?
+a) Should be assignable to String type
+b) Should be assignable to Exception type
+c) Should be assignable to Throwable type
+d) Should be assignable to Error type Ans. c
+
+526. Which of these is a super class of all exceptional type classes?
+a) String
+b) RuntimeExceptions
+c) Throwable
+d) Cacheable Ans. c
+
+527. Which of these class is related to all the exceptions that can be caught by using catch?
+a) Error
+b) Exception
+c) RuntimeExecption
+d) All of the mentioned Ans. b
+
+528. Which of these class is related to all the exceptions that cannot be caught?
+a) Error
+b) Exception
+c) RuntimeExecption
+d) All of the mentioned Ans. a
+
+529. Which of these handles the exception when no catch is used?
+a) Default handler	b) finally
+c) throw handler	d) Java run time system
+
+230. What exception thrown by parseInt() method?
+a) ArithmeticException	b) ClassNotFoundException
+c) NullPointerException	d) NumberFormatException Ans. d
+
+531. Which of these keywords is used to generate an exception explicitly?
+a) try
+b) finally
+c) throw
+d) catch Ans. c
+
+532. Which of these class is related to all the exceptions that are explicitly thrown?
+a) Error
+b) Exception
+c) Throwable
+d) Throw Ans. c
+
+533. Which of these operator is used to generate an instance of an exception than can be thrown by using throw?
+a) new
+b) malloc
+c) alloc
+d) thrown Ans. a
+
+534. Which of these clause will be executed even if no exceptions are found?
+a) throws
+b) finally
+c) throw
+d) catch Ans. b
+
+535. A single try block must be followed by which of these?
+a) finally
+b) catch
+c) finally & catch
+d) none of the mentioned Ans. c
+
+536. Which of these exceptions handles the divide by zero error?
+a) ArithmeticException	b) MathException	c) IllegalAccessException	d) IllegarException
+
+537. What is the use of try & catch?
+a) It allows us to manually handle the exception
+b) It allows to fix errors
+c) It prevents automatic terminating of the program in cases when an exception occurs
+d) All of the mentioned Ans. d
+
+538. Which of these keywords are used for the block to be examined for exceptions?
+a) try	b) catch	c) throw	d) check Ans. a
+
+539. Which of these keywords are used for the block to handle the exceptions generated by try block?
+a) try
+b) catch
+c) throw
+d) check Ans. b
+
+540. Which of these keywords are used for generating an exception manually?
+a) try
+b) catch
+c) throw
+d) check Ans. c
+
+541. Which of these statements is incorrect?
+a) try block need not to be followed by catch block
+b) try block can be followed by finally block instead of catch block
+c) try can be followed by both catch and finally block
+d) try need not to be followed by anything Ans. d
+
+542. Which of these classes is used to define exceptions?
+a) Exception
+b) Throwable
+c) Abstract
+d) System Ans. a
+
+543. Which of these methods return description of an exception?
+a) getException()	b) getMessage()
+c) obtainDescription()	d) obtainException() Ans. b
+
+544. Which of these methods is used to print stack trace?
+a) obtainStackTrace()	b) printStackTrace()
+c) getStackTrace()	d) displayStackTrace() Ans. b
+
+545. Which of these methods return localized description of an exception?
+a) getLocalizedMessage()
+b) getMessage()
+c) obtainLocalizedMessage()
+d) printLocalizedMessage() Ans. a
+
+546. Which of these classes is super class of Exception class?
+a) Throwable
+b) System
+c) RunTime
+d) Class Ans. a
+
+547. Which of this method can be used to make the main thread to be executed last among all the threads?
+a) stop()
+b) sleep()
+c) join()
+d) call() Ans. b
+
+548. Which of this method is used to find out that a thread is still running or not?
+a) run()
+b) Alive()
+c) isAlive()
+d) checkRun() Ans. c
+
+549. What is the default value of priority variable MIN_PRIORITY AND MAX_PRIORITY? a) 0 & 256
+b) 0 & 1
+c) 1 & 10
+d) 1 & 256
+Ans. c
+
+550. Which of these method waits for the thread to terminate?
+a) sleep()	b) isAlive()	c) join()	d) stop() Ans. c
+
+551. Which of these method is used to explicitly set the priority of a thread?
+a) set()	b) make()	c) setPriority()	d) makePriority() Ans. c
+
+552. What is synchronization in reference to a thread?
+a) It’s a process of handling situations when two or more threads need access to a shared resource
+b) It’s a process by which many thread are able to access same shared resource simultaneously
+c) It’s a process by which a method is able to access many different threads simultaneously
+d) It’s a method that allow too many threads to access any information require Ans. a
+
+553. Which of these method is used to implement Runnable interface?
+a) stop()
+b) run()
+c) runThread()
+d) stopThread() Ans. b
+
+554. Which of these method is used to begin the execution of a thread?
+a) run()
+b) start()
+c) runThread()
+d) startThread() Ans. b
+
+555. Which of these statement is incorrect?
+a) A thread can be formed by implementing Runnable interface only
+b) A thread can be formed by a class that extends Thread class
+c) start() method is used to begin execution of the thread
+d) run() method is used to begin execution of a thread before start() method in special cases Ans. d
+
+556. Which of these method of Thread class is used to find out the priority given to a thread?
+a) get()
+b) ThreadPriority()
+c) getPriority()
+d) getThreadPriority() Ans. c
+
+557. Which of these method of Thread class is used to Suspend a thread for a period of time?
+a) sleep()	b) terminate()
+c) suspend()	d) stop() Ans. a
+
+558. Which function of pre defined class Thread is used to check weather current thread being checked is still running?
+a) isAlive()	b) Join()	c) isRunning()	d) Alive() Ans. a
+
+559. What is multithreaded programming?
+a) It’s a process in which two different processes run simultaneously
+b) It’s a process in which two or more parts of same process run simultaneously
+c) It’s a process in which many different process are able to access same information
+d) It’s a process in which a single process can access information from many sources Ans. b
+
+560. Which of these are types of multitasking?
+a) Process based
+b) Thread based
+c) Process and Thread based
+d) None of the mentioned Ans. c
+
+561. Thread priority in Java is?
+a) Integer
+b) Float
+c) double
+d) long Ans. a
+
+562. What will happen if two thread of the same priority are called to be processed simultaneously?
+a) Anyone will be executed first lexographically
+b) Both of them will be executed simultaneously
+c) None of them will be executed
+d) It is dependent on the operating system Ans. b
+
+563. Which of these statements is incorrect?
+a) By multithreading CPU idle time is minimized, and we can take maximum use of it
+b) By multitasking CPU idle time is minimized, and we can take maximum use of it
+c) Two thread in Java can have the same priority
+d) A thread can exist only in two states, running and blocked Ans. d
+
+564. What requires less resources?
+a) Thread	b) Process
+c) Thread and Process	d) Neither Thread nor Process Ans. a
+
+565. What does not prevent JVM from terminating?
+a) Process	b) Daemon Thread
+c) User Thread	d) JVM Thread Ans. b
+
+566. What decides thread priority?
+a) Process
+b) Process scheduler
+c) Thread
+d) Thread scheduler Ans. d
+
+567. What should not be done to avoid deadlock?
+a) Avoid using multiple threads
+b) Avoid hold several locks at once
+c) Execute foreign code while holding a lock
+d) Use interruptible locks Ans. c
+
+568. What is true about threading?
+a) run() method calls start() method and runs the code
+b) run() method creates new thread
+c) run() method can be called directly without start() method being called
+d) start() method creates new thread and calls code written in run() method Ans. d
+
+569. Which of the following is a correct constructor for thread?
+a) Thread(Runnable a, String str)
+b) Thread(int priority)
+c) Thread(Runnable a, int priority)
+d) Thread(Runnable a, ThreadGroup t) Ans. a
+
+570. Which of the following stops execution of a thread?
+a) Calling SetPriority() method on a Thread object
+b) Calling notify() method on an object
+c) Calling wait() method on an object
+d) Calling read() method on an InputStream object Ans. b
+
+571. Which of the following will ensure the thread will be in running state?
+a) yield()	b) notify()
+c) wait()	d) Thread.killThread()
+
+572. Which of these keywords are used to implement synchronization?
+a) synchronize	b) syn	c) synch	d) synchronized Ans. d
+
+573. Which of this method is used to avoid polling in Java?
+a) wait()	b) notify()
+c) notifyAll()	d) all of the mentioned Ans. d
+
+574. Which of these method is used to tell the calling thread to give up a monitor and go to sleep until some other thread enters the same monitor?
+a) wait()
+b) notify()
+c) notifyAll()
+d) sleep() Ans. a
+
+575. Which of these method wakes up the first thread that called wait()?
+a) wake()
+b) notify()
+c) start()
+d) notifyAll() Ans. b
+
+576. Which of these method wakes up all the threads?
+a) wakeAll()
+b) notify()
+c) start()
+d) notifyAll() Ans. d
+
+577. What is synchronization in reference to a thread?
+a) It’s a process of handling situations when two or more threads need access to a shared resource
+b) It’s a process by which many thread are able to access same shared resource simultaneously
+c) It’s a process by which a method is able to access many different threads simultaneously
+d) It’s a method that allow too many threads to access any information the require Ans. a
+
+578. What does AWT stands for?
+a) All Window Tools
+b) All Writing Tools
+c) Abstract Window Toolkit
+d) Abstract Writing Toolkit
+
+579. Which of these is used to perform all input & output operations in Java?
+a) streams	b) Variables	c) classes	d) Methods Ans. a
+
+580. Which of these is a type of stream in Java?
+a) Integer stream
+b) Short stream
+c) Byte stream
+d) Long stream Ans. c
+
+581. Which of these classes are used by character streams for input and output operations?
+a) InputStream
+b) Writer
+c) ReadStream
+d) InputOutputStream Ans. b
+
+582. Which of these class is used to read from byte array?
+a) InputStream
+b) BufferedInputStream
+c) ArrayInputStream
+d) ByteArrayInputStream Ans. d
+
+583. Which exception is thrown by read() method?
+a) IOException
+b) InterruptedException
+c) SystemException
+d) SystemInputException Ans. a
+
+584. Which of these is used to read a string from the input stream?
+a) get()
+b) getLine()
+c) read()
+d) readLine() Ans. c
+
+585. Which of these class is used to read characters and strings in Java from console?
+a) BufferedReader	b) StringReader
+c) BufferedStreamReader	d) InputStreamReader Ans. a
+
+586. Which of these class contains the methods print() & println()?
+a) System	b) System.out	c) BUfferedOutputStream	d) PrintStream Ans. d
+
+587. Which of these methods can be used to writing console output?
+a) print()
+b) println()
+c) write()
+d) all of the mentioned Ans. d
+
+588. Which of these classes are used by character streams output operations?
+a) InputStream
+b) Writer
+c) ReadStream
+d) InputOutputStream Ans. b
+
+589. Which of these class is used to read from a file?
+a) InputStream
+b) BufferedInputStream
+c) FileInputStream
+d) BufferedFileInputStream Ans. c
+
+590. Which of these class contains the methods used to write in a file?
+a) FileStream
+b) FileInputStream
+c) BUfferedOutputStream
+d) FileBufferStream Ans. b
+
+591. Which of these exception is thrown in cases when the file specified for writing is not found?
+a) IOException
+b) FileException
+c) FileNotFoundException
+d) FileInputException Ans. c
+
+592. Which of these methods are used to read in from file?
+a) get()	b) read()
+c) scan()	d) readFileInput() Ans. b
+
+593. Which of these values is returned by read() method is end of file (EOF) is encountered?
+a) 0	b) 1	c) -1	d) Null Ans. c
+
+594. Which of these exception is thrown by close() and read() methods?
+a) IOException
+b) FileException
+c) FileNotFoundException
+d) FileInputOutputException Ans. a
+
+595. Which of these methods is used to write() into a file?
+a) put()
+b) putFile()
+c) write()
+d) writeFile() Ans. c
+
+596. Which of these functions is called to display the output of an applet?
+a) display()
+b) paint()
+c) displayApplet()
+d) PrintApplet() Ans. b
+
+597. Which of these methods can be used to output a string in an applet?
+a) display()
+b) print()
+c) drawString()
+d) transient() Ans. c
+
+598. Which of these methods is a part of Abstract Window Toolkit (AWT) ?
+a) display()
+b) paint()
+c) drawString()
+d) transient() Ans. b
+
+599. Which of these operators can be used to get run time information about an object?
+a) getInfo	b) Info
+c) instanceof d) getinfoof
+
+600. Which of these package is used for text formatting in Java programming language?
+a) java.text	b) java.awt	c) java.awt.text	d) java.io Ans. a
+
+601. Which of this class can be used to format dates and times?
+a) Date
+b) SimpleDate
+c) DateFormat
+d) textFormat Ans. c
+
+602. Which of these method returns an instance of DateFormat that can format time information?
+a) getTime()
+b) getTimeInstance()
+c) getTimeDateinstance()
+d) getDateFormatinstance() Ans. b
+
+603. Which of these class allows us to define our own formatting pattern for dates and time?
+a) DefinedDateFormat
+b) SimpleDateFormat
+c) ComplexDateFormat
+d) UsersDateFormat Ans. b
+
+604. Which of these formatting strings of SimpleDateFormat class is used to print AM or PM in time?
+a) a
+b) b
+c) c
+d) d Ans. a
+
+605. Which of these formatting strings of SimpleDateFormat class is used to print week of the year?
+a) w
+b) W
+c) s
+d) S Ans. a
+
+606. Which of the following is not a class of java.util.regex?
+a) Pattern class	b) matcher class
+c) PatternSyntaxException	d) Regex class
+
+607. What is the significance of Matcher class for regular expression in java?
+a) interpretes pattern in the string
+b) Performs match in the string
+c) interpreted both pattern and performs match operations in the string
+d) None of the mentioned. Ans. c
+
+608. Object of which class is used to compile regular expression?
+a) Pattern class
+b) Matcher class
+c) PatternSyntaxException
+d) None of the mentioned Ans. a
+
+609. Which of the following matches nonword character using regular expression in java?
+a) \w	b) \W c) \s	d) \S Ans. b
+
+610. Which of the following matches end of the string using regular expression in java?
+a) \z	b) \\	c) \*	d) \Z Ans. a
+
+611. What does public int end(int group) return?
+a) offset from last character of the subsequent group
+b) offset from first character of the subsequent group
+c) offset from last character matched
+d) offset from first character matched Ans. a
+
+612. What does public String replaceAll(string replace) do?
+a) Replace all characters that matches pattern with a replacement string
+b) Replace first subsequence that matches pattern with a replacement string
+c) Replace all other than first subsequence of that matches pattern with a replacement string
+d) Replace every subsequence of the input sequence that matches pattern with a replacement string Ans. d
+
+613. What does public int start() return?
+a) returns start index of the input string
+b) returns start index of the current match
+c) returns start index of the previous match
+d) none of the mentioned Ans. c
+
+614. Which of these packages contains all the classes and methods required for even handling in Java?
+a) java.applet	b) java.awt
+c) java.event	d) java.awt.event Ans. d
+
+615. What is an event in delegation event model used by Java programming language?
+a) An event is an object that describes a state change in a source
+b) An event is an object that describes a state change in processing
+c) An event is an object that describes any change by the user and system
+d) An event is a class used for defining object, to create events Ans. a
+
+616. Which of these methods are used to register a keyboard event listener?
+a) KeyListener()
+b) addKistener()
+c) addKeyListener()
+d) eventKeyboardListener() Ans. c
+
+617. What is a listener in context to event handling?
+a) A listener is a variable that is notified when an event occurs
+b) A listener is a object that is notified when an event occurs
+c) A listener is a method that is notified when an event occurs
+d) None of the mentioned Ans. b
+
+618. Event class is defined in which of these libraries?
+a) java.io
+b) java.lang
+c) java.net
+d) java.util Ans. d
+
+619. Which of these methods can be used to determine the type of event?
+a) getID()
+b) getSource()
+c) getEvent()
+d) getEventObject() Ans. a
+
+620. Which of these class is super class of all the events?
+a) EventObject	b) EventClass
+c) ActionEvent	d) ItemEvent Ans. a
+
+621. Which of these events will be notified if scroll bar is manipulated?
+a) ActionEvent	b) ComponentEvent
+c) AdjustmentEvent	d) WindowEvent Ans. c
+
+622. Which of these events will be generated if we close an applet’s window?
+a) ActionEvent
+b) ComponentEvent
+c) AdjustmentEvent
+d) WindowEvent Ans. d
+
+623. Which of these events is generated when a button is pressed?
+a) ActionEvent
+b) KeyEvent
+c) WindowEvent
+d) AdjustmentEvent Ans. a
+
+624. Which of these methods can be used to obtain the command name for invoking ActionEvent object?
+a) getCommand()
+b) getActionCommand()
+c) getActionEvent()
+d) getActionEventCommand() Ans. b
+
+625. Which of these are integer constants defined in ActionEvent class?
+a) ALT_MASK
+b) CTRL_MASK
+c) SHIFT_MASK
+d) All of the mentioned Ans. d
+
+626. Which of these events is generated by scroll bar?
+a) ActionEvent
+b) KeyEvent
+c) WindowEvent
+d) AdjustmentEvent Ans. d
+
+627. Which of these methods can be used to determine the type of adjustment event?
+a) getType()	b) getEventType()
+c) getAdjustmentType()	d) getEventObjectType() Ans. c
+
+628. Which of these methods can be used to know the degree of adjustment made by the user?
+a) getValue()
+b) getAdjustmentType()
+c) getAdjustmentValue()
+d) getAdjustmentAmount() Ans. a
+
+629. Which of these constant value will change when the button at the end of scroll bar was clicked to increase its value?
+a) BLOCK_DECREMENT
+b) BLOCK_INCREMENT
+c) UNIT_DECREMENT
+d) UNIT_INCREMENT Ans. d
+
+630. Which of these events is generated when the size of an event is changed?
+a) ComponentEvent
+b) ContainerEvent
+c) FocusEvent
+d) InputEvent Ans. a
+
+631. Which of these events is generated when the component is added or removed?
+a) ComponentEvent
+b) ContainerEvent
+c) FocusEvent
+d) InputEvent Ans. b
+
+632. Which of these methods can be used to obtain the reference to the container that generated a ContainerEvent?
+a) getContainer()
+b) getContainerCommand()
+c) getActionEvent()
+d) getContainerEvent() Ans. d
+
+633. Which of these are integer constants of ComponentEvent class?
+a) COMPONENT_HIDDEN
+b) COMPONENT_MOVED
+c) COMPONENT_RESIZE
+d) All of the mentioned Ans. d
+
+634. Which of these events is generated when computer gains or loses input focus?
+a) ComponentEvent	b) ContainerEvent
+c) FocusEvent	d) InputEvent Ans. c
+
+635. FocusEvent is subclass of which of these classes?
+a) ComponentEvent
+b) ContainerEvent
+c) ItemEvent
+d) InputEvent Ans. a
+
+636. Which of these methods can be used to know the type of focus change?
+a) typeFocus()
+b) typeEventFocus()
+c) isTemporary()
+d) isPermanent() Ans. c
+
+637. Which of these is superclass of ContainerEvent class?
+a) WindowEvent
+b) ComponentEvent
+c) ItemEvent
+d) InputEvent Ans. b
+
+638. Which of these events is generated when the window is closed?
+a) TextEvent
+b) MouseEvent
+c) FocusEvent
+d) WindowEvent Ans. d
+
+639. Which of these methods can be used to obtain the coordinates of a mouse?
+a) getPoint()
+b) getCoordinates()
+c) getMouseXY()
+d) getMouseCordinates() Ans. a
+
+640. Which of these methods can be used to change location of an event?
+a) ChangePoint()	b) TranslatePoint()
+c) ChangeCordinates()	d) TranslateCordinates()
+
+641. Which of these methods is used to obtain the object that generated a WindowEvent?
+a) getMethod()
+b) getWindow()
+c) getWindowEvent()
+d) getWindowObject() Ans. b
+
+642. MouseEvent is subclass of which of these classes?
+a) ComponentEvent
+b) ContainerEvent
+c) ItemEvent
+d) InputEvent Ans. d
+
+643. Which of these methods is used to get x coordinate of the mouse?
+a) getX()
+b) getXCoordinate()
+c) getCoordinateX()
+d) getPointX() Ans. a
+
+644. Which of these are constants defined in WindowEvent class?
+a) WINDOW_ACTIVATED
+b) WINDOW_CLOSED
+c) WINDOW_DEICONIFIED
+d) All of the mentioned Ans. d
+
+645. Which of these is superclass of WindowEvent class?
+a) WindowEvent
+b) ComponentEvent
+c) ItemEvent
+d) InputEvent Ans. b
+
+646. Which of these packages contains all the event handling interfaces?
+a) java.lang
+b) java.awt
+c) java.awt.event
+d) java.event Ans. c
+
+647. Which of these interfaces handles the event when a component is added to a container?
+a) ComponentListener
+b) ContainerListener
+c) FocusListener
+d) InputListener
+
+648. Which of these interfaces define a method actionPerformed()?
+a) ComponentListener
+b) ContainerListener
+c) ActionListener
+d) InputListener Ans. c
+
+649. Which of these interfaces define four methods?
+a) ComponentListener
+b) ContainerListener
+c) ActionListener
+d) InputListener Ans. a
+
+650. Which of these interfaces define a method itemStateChanged()?
+a) ComponentListener
+b) ContainerListener
+c) ActionListener
+d) ItemListener Ans. d
+
+651. Which of these methods will respond when you click any button by mouse?
+a) mouseClicked()
+b) mouseEntered()
+c) mousePressed()
+d) all of the mentioned Ans. d
+
+652. Which of these methods will be invoked if a character is entered?
+a) keyPressed()
+b) keyReleased()
+c) keyTyped()
+d) keyEntered() Ans. c
+
+653. Which of these methods is defined in MouseMotionAdapter class?
+a) mouseDragged()
+b) mousePressed()
+c) mouseReleased()
+d) mouseClicked() Ans. a
+
+654. Which of these is a superclass of all Adapter classes?
+a) Applet
+b) ComponentEvent
+c) Event
+d) InputEvent Ans. a
+
+655. Which class is used to generate random number?
+a) java.lang.Object	b) java.util.randomNumber
+c) java.util.Random d) java.util.Object Ans. c
+
+656. Which method is used to generate boolean random values in java?
+a) nextBoolean()
+b) randomBoolean()
+c) previousBoolean()
+d) generateBoolean() Ans. a
+
+657. What is the return type of Math.random() method?
+a) Integer
+b) Double
+c) String
+d) Boolean Ans. b
+
+658. What is the range of numbers returned by Math.random() method? a) -1.0 to 1.0
+b) -1 to 1
+c) 0 to 100
+d) 0.0 to 1.0 Ans. d
+
+659. How many bits are used for generating random numbers?
+a) 32
+b) 64
+c) 48
+d) 8 Ans. c
+
+660. What will be the output of the following Java code snippet? int a = random.nextInt(15) + 1;
+a) Random number between 1 to 15, including 1 and 15
+b) Random number between 1 to 15, excluding 15
+c) Random number between 1 to 15, excluding 1
+d) Random number between 1 to 15, excluding 1 and 15 Ans. a
+
+661. What will be the output of the following Java code snippet? int a = random.nextInt(7) + 4;
+a) Random number between 4 to 7, including 4 and 7
+b) Random number between 4 to 7, excluding 4 and 7
+c) Random number between 4 to 10, excluding 4 and 10
+d) Random number between 4 to 10, including 4 and 10 Ans. d
+
+662. What is the signature of Math.random() method?
+a) public static double random()
+b) public void double random()
+c) public static int random()
+d) public void int random() Ans. a
+
+663. Which of these class produce objects with respect to geographical locations?
+a) TimeZone
+b) Locale
+c) Date
+d) SimpleTimeZone Ans. b
+
+664. Which of these methods is not a Locale class?
+a) UK
+b) US
+c) INDIA
+d) KOREA Ans. c
+
+665. Which of these class can generate pseudorandom numbers?
+a) Locale
+b) Rand
+c) Random
+d) None of the mentioned Ans. c
+
+666. Which of these is a method can generate a boolean output?
+a) retbool()
+b) getBool()
+c) nextBool()
+d) nextBoolean() Ans. d
+
+667. What is the use of Observable class?
+a) It is used to create global subclasses
+b) It is used to create classes that other part of the program can observe
+c) It is used to create classes that can be accessed by other parts of program
+d) It is used to create methods that can be accessed by other parts of program Ans. b
+
+668. Which of these methods is used to notify observer the change in observed object?
+a) update()
+b) notify()
+c) check()
+d) observed() Ans. a
+
+669. Which of these methods calls update() method?
+a) notify()
+b) observeObject()
+c) updateObserver()
+d) notifyObserver() Ans. d
+
+670. Which of these methods is called when observed object has changed?
+a) setChanged()
+b) update()
+c) notifyObserver()
+d) all of the mentioned Ans. d
+
+671. Which of these classes can schedule task for execution in future?
+a) Thread
+b) Timer
+c) System
+d) Observer Ans. b
+
+672. Which of these interfaces is implemented by TimerTask class?
+a) Runnable
+b) Thread
+c) Observer
+d) ThreadCount Ans. a
+
+673. Which of these package provides the ability to read and write in Zip format?
+a) java.lang
+b) java.io
+c) java.util.zip
+d) java.util.zar Ans. c
+
+674. Which of these keywords is used to define packages in Java?
+a) pkg
+b) Pkg
+c) package
+d) Package Ans. c
+
+675. Which of these is a mechanism for naming and visibility control of a class and its content?
+a) Object
+b) Packages
+c) Interfaces
+d) None of the Mentioned. Ans. b
+
+676. Which of this access specifies can be used for a class so that its members can be accessed by a different class in the same package?
+a) Public
+b) Protected
+c) No Modifier
+d) All of the mentioned Ans. d
+
+677. Which of these access specifiers can be used for a class so that its members can be accessed by a different class in the different package?
+a) Public
+b) Protected
+c) Private
+d) No Modifier Ans. a
+
+678. Which of the following is the correct way of importing an entire package „pkg??
+a) import pkg.
+b) Import pkg.
+c) import pkg.*
+d) Import pkg.* Ans. c
+
+679. Which of the following is an incorrect statement about packages?
+a) Package defines a namespace in which classes are stored
+b) A package can contain other package within it
+c) Java uses file system directories to store packages
+d) A package can be renamed without renaming the directory in which the classes are stored Ans. d
+
+680. Which of the following package stores all the standard java classes?
+a) lang
+b) java
+c) util
+d) java.packages Ans. b
+
+681. Which of these keywords is used to define interfaces in Java?
+a) interface
+b) Interface
+c) intf
+d) Intf Ans. a
+
+682. Which of these can be used to fully abstract a class from its implementation?
+a) Objects	b) Packages
+c) Interfaces	d) None of the Mentioned Ans. c
+
+683. Which of these access specifiers can be used for an interface?
+a) Public
+b) Protected
+c) private
+d) All of the mentioned Ans. a
+
+684. Which of these keywords is used by a class to use an interface defined previously?
+a) import
+b) Import
+c) implements
+d) Implements Ans. c
+
+685. Which of the following is the correct way of implementing an interface salary by class manager?
+a) class manager extends salary {}
+b) class manager implements salary {}
+c) class manager imports salary {}
+d) none of the mentioned Ans. b
+
+686. Which of the following is an incorrect statement about packages?
+a) Interfaces specifies what class must do but not how it does
+b) Interfaces are specified public if they are to be accessed by any code in the program
+c) All variables in interface are implicitly final and static
+d) All variables are static and methods are public if interface is defined pubic Ans. d
+
+687. Which of the following access specifiers can be used for an interface?
+a) Protected
+b) Private
+c) Public
+d) Public, protected, private Ans. a
+
+688. Which of the following is the correct way of implementing an interface A by class B?
+a) class B extends A{}
+b) class B implements A{}
+c) class B imports A{}
+d) None of the mentioned Ans. b
+
+689. What does an interface contain?
+a) Method definition
+b) Method declaration
+c) Method declaration and definition
+d) Method name Ans. b
+
+690. What type of methods an interface contain by default?
+a) abstract
+b) static
+c) final
+d) private Ans. a
+
+691. What will happen if we provide concrete implementation of method in interface?
+a) The concrete class implementing that method need not provide implementation of that method
+b) Runtime exception is thrown
+c) Compilation failure
+d) Method not found exception is thrown Ans. c
+
+692. What happens when a constructor is defined for an interface?
+a) Compilation failure
+b) Runtime Exception
+c) The interface compiles successfully
+d) The implementing class will throw exception Ans. a
+
+693. What happens when we access the same variable defined in two interfaces implemented by the same class?
+a) Compilation failure
+b) Runtime Exception
+c) The JVM is not able to identify the correct variable
+d) The interfaceName.variableName needs to be defined Ans. d
+
+694. Which of these package is used for graphical user interface?
+a) java.applet
+b) java.awt
+c) java.awt.image
+d) java.io Ans. b
+
+695. Which of this package is used for analyzing code during run-time?
+a) java.applet
+b) java.awt
+c) java.io
+d) java.lang.reflect Ans. d
+
+696. Which of this package is used for handling security related issues in a program?
+a) java.security
+b) java.lang.security
+c) java.awt.image
+d) java.io.security Ans. a
+
+697. Which of these class allows us to get real time data about private and protected member of a class?
+a) java.io	b) GetInformation	c) ReflectPermission	d) MembersPermission Ans. c
+
+698. Which of this package is used for invoking a method remotely?
+a) java.rmi	b) java.awt
+c) java.util	d) java.applet Ans. a
+
+699. Why are generics used?
+a) Generics make code more fast
+b) Generics make code more optimised and readable
+c) Generics add stability to your code by making more of your bugs detectable at compile time
+d) Generics add stability to your code by making more of your bugs detectable at runtime Ans. c
+
+700. Which of these type parameters is used for a generic class to return and accept any type of object?
+a) K
+b) N
+c) T
+d) V Ans. c
+
+701. Which of these type parameters is used for a generic class to return and accept a number?
+a) K
+b) N
+c) T
+d) V Ans. b
+
+702. Which of the following is an incorrect statement regarding the use of generics and parameterized types in Java?
+a) Generics provide type safety by shifting more type checking responsibilities to the compiler
+b) Generics and parameterized types eliminate the need for down casts when using Java Collections
+c) When designing your own collections class (say, a linked list), generics and parameterized types allow you to achieve type safety with just a single class definition as opposed to defining multiple classes
+d) All of the mentioned Ans. c
+
+703. Which of the following reference types cannot be generic?
+a) Anonymous inner class
+b) Interface
+c) Inner class
+d) All of the mentioned Ans. a
+
+1. Identify the output of the following program. Public class Test{
+Public static void main(String argos[]){ String str1 = “one”;
+String str2 = “two”; System.out.println(str1.concat(str2));
+}
+}
+a) one
+b) two
+c) onetwo
+d) twoone
+
+2. What does the following string do to given string str1. String str1 = “heetson”.replace(„e?,?s?);
+a) Replaces single occurrence of „e? to „s?
+b) Replaces all occurrences of „e? to „s?
+c) Replaces single occurrence of „s? to „e?
+d) None
+
+3. Find the output of the following code. if(1 + 1 + 1 + 1 + 1 == 5){ System.out.print(“TRUE”);
+}
+else{ System.out.print(“FALSE”);
+}
+a) TRUE
+b) FALSE
+c) Compile error
+d) None
+
+4. Which component is used to compile, debug and execute the java programs?
+a) JRE
+b) JIT
+c) JDK
+d) JVM
+
+5. Who invented Java Programming?
+a) Guido van Rossum
+b) James Gosling
+c) Dennis Ritchie
+d) Bjarne Stroustrup
+
+6. Which statement is true about Java?
+a) Java is a sequence-dependent programming language
+b) Java is a code dependent programming language
+c) Java is a platform-dependent programming language
+d) Java is a platform-independent programming language
+
+7. Which of these cannot be used for a variable name in Java?
+a) identifier & keyword
+b) identifier
+c) keyword
+d) none of the mentioned
+
+8. What is the extension of java code files?
+a) .js
+b) .txt
+c) .class
+d) .java
+
+9. Which of these are selection statements in Java?
+a) break
+b) continue
+c) for()
+d) if()
+
+10. Which one of the following is not an access modifier?
+a) Protected
+b) Void
+c) Public
+d) Private
+
+Click here for Answers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Computer Question in Hindi (Playlist)
+
+Computer MCQ for All Competitive Exams (Playlist)
+
+Website www.bharatskills.in
+
+Buy Best Computer MCQ E-Book in Hindi (2100+ Question) https://imojo.in/4h9t0zb
+
+Buy Best Computer MCQ E-Book in English [7000+ Question] https://imojo.in/27ql6f4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
